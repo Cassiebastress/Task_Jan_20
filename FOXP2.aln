@@ -1,0 +1,1222 @@
+CLUSTAL format alignment by MAFFT FFT-NS-i (v7.526)
+
+
+NM_014491.4     acagacatgaaagctaaccgaggacttgagagactcaaactggtgcttttgtctctctct
+NM_053242.4     ------------------------------------------------------------
+XM_063813769.1  ------------------------------------------------------------
+XM_038439870.1  ------------------------------------------------------------
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  ------------------------------------------------------------
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     ctctgtctttctctctctcacacacacactcacacactcacacacatgcacacacacaca
+NM_053242.4     --------------cacacacacacacatacaagcgcgcgcgcacacacatacacacaga
+XM_063813769.1  ------------------------------------------------------------
+XM_038439870.1  ------------------------------------------cacacacacacacacaca
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  ------------------------------------------------------------
+XM_036862984.1  ------------------------------------cacacacacacacacacacacaca
+                                                                            
+
+NM_014491.4     tacacacacaca------------------------------------------------
+NM_053242.4     cacacacacacaccaacacacacatacatacagagatccgggttgtggggggagctgcca
+XM_063813769.1  ------------------------------------------------------------
+XM_038439870.1  cacacacacaca------------------------------------------------
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  ------------------------------------------------------------
+XM_036862984.1  cacacacacaca----------------------gatccgggt----ggggggagcggca
+                                                                            
+
+NM_014491.4     --aaaatgaagcacttactttagaaagattatg---------------------------
+NM_053242.4     gcgcgagacagcgcgagcctccgagaaagcgcgagacacgccggcgcgtgcagctccccg
+XM_063813769.1  ------------------------------------------------------------
+XM_038439870.1  ------------------------------------------------------------
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  ------------------------------------------------------------
+XM_036862984.1  gcgcgagacagcgcgagcctccgagaaagcgcgagacacgccggcgcgtgcagctctgcg
+                                                                            
+
+NM_014491.4     ------------------------------------------------------------
+NM_053242.4     gccgcagcttcgtcccggccggagcccggcgccaccagcagttcatccgtcagtgcccgc
+XM_063813769.1  ------------------------------------------------------------
+XM_038439870.1  ------------------------------------------------------------
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  ------------------------------------------------------------
+XM_036862984.1  gcggccgcagcgccccggctcgagccccgc-------gcagcccgcccttgagcgccggt
+                                                                            
+
+NM_014491.4     ------------------------------------------------------------
+NM_053242.4     ccagggcatttatgccgcggccgcgacttcccgccgcagcttcctcgggtcccccctccc
+XM_063813769.1  ------------------------------------------------------------
+XM_038439870.1  ------------------------------------------------------------
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ---------------------------cgccggctgccgcttcctcagacgccc----cc
+XM_019925131.2  ------------------------------------------------------------
+XM_036862984.1  ccgggttatttatgcggcggccgcgtccgccagctgcggcttcctccagccccc--accc
+                                                                            
+
+NM_014491.4     ---------------------------------------------gtaagcatgctggct
+NM_053242.4     ctggtgtccccgaactcgcggccgcggctgccgggactc--gagcgtgggtgtgttgttc
+XM_063813769.1  -----------------------------------actc--gcgcgtgggtgtgttgttt
+XM_038439870.1  --------------ctcgcggcagcagctgccgggactcgctcgtgggtgtgtgtggttt
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  aggctcggcccccactagcggcagcagccgcagggactcg-gcgcgtgggtgtgttgttg
+XM_019925131.2  ------------------------------------------------------------
+XM_036862984.1  cgggcgcgcccccactcgcagcagcagctgacaggaatc--gcgcgtgggtgtgttgttt
+                                                                            
+
+NM_014491.4     cagtcttgaacctttg--tcacccctcacgttgcacaccaaagacataccctagtgatta
+NM_053242.4     cggggcttctgcctgggtgcacagcgggtgccacctcctgg-------------------
+XM_063813769.1  gggggcttctgcctcg--ccgccgcgggtgccacctcccgg-------------------
+XM_038439870.1  gggggctcctgcctcg--gcgcggcgggtgccacctcccgg-------------------
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  gggggcttctgcctcg--gcgcggcgggtgccaccttccgg-------------------
+XM_019925131.2  ------------------------------------------------------------
+XM_036862984.1  gggagcttcggcctcg--gcgccgcgggtgccacctcccgg-------------------
+                                                                            
+
+NM_014491.4     aatgctgattttgtgtacgattgtccacggacgc---caaaacaatcacagagct-----
+NM_053242.4     ------gacgctgccctcgg-ggtccccgatcgcgaccaaacaagtaagagaactctgtt
+XM_063813769.1  ------gacgctgcccacgg-cgtccccagtcgcgatcaaacaaataatagaagtctgtt
+XM_038439870.1  ------gacgctggccagg--cgtcccaggtcgcgatcaaacaaataatagaagtctgtt
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------gacgctgccccgg--cgtccccggttgcgatcaaacatataatagaagtctgtt
+XM_019925131.2  ------gattttgtgtacgattgtccacggacgc---caaaacaatcacagagct-----
+XM_036862984.1  ------gacgctgcccagg--cgtcctcggtcgcgatcaaacaaataatagaagtctgtt
+                                                                            
+
+NM_014491.4     ---------gcttgatttgtttta------------------------------attacc
+NM_053242.4     gaagctcgatcctcacctactctctaaataaaagaatattccagagaaggaaa-gagaga
+XM_063813769.1  gaagctttgtcctgacctatcctggaagtagaagaatactctggagaaaggagcattgta
+XM_038439870.1  gaagctttgtcctgacctattctggaagtagaagaataccctggagaaaggagcattgta
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  gaagctttgtcctgacctattctggaagtagaagaataccctggagaaaggagcattgta
+XM_019925131.2  ---------gcttgatttgtttta------------------------------attacc
+XM_036862984.1  gaagctttgtcctgacctattctggaagtagaagaataccctggagaaaggagcattgta
+                                                                            
+
+NM_014491.4     agcacaaa-------atgccatcagtctgggacgtgatcgggcagaggtgtactcacagt
+NM_053242.4     agcacaaatattaagacttctagacccctg----------gagaggactaaagtc-----
+XM_063813769.1  agcacaaagaataagattcctcaatcctgaga--------gagagaattaaagtc-----
+XM_038439870.1  agcacaaagaataagactcctcaatcctggga--------gagagaattaaagtc-----
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  agagcaaagaataagactcctcaatcctgggagaga----gagagaattgaagtc-----
+XM_019925131.2  agcacaaa-------atgccatcagtctgggacgtgatcgggcagaggtgtagtcacagt
+XM_036862984.1  agcacaaagaataaaactcctcaatcctggga--------gagagaattaaagtc-----
+                                                                            
+
+NM_014491.4     agtgtaaatactgctgtaaatagttgtctgatggtggcttt------------gacagtg
+NM_053242.4     --------tacccctccacatgg-------------------------------------
+XM_063813769.1  --------taactctccaaattt----tcaacaggagttttgagt-----aaagaaaatg
+XM_038439870.1  --------tagccctccaaatgg-------------------------------------
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  --------tgcccctccaaatgc-------------------------------------
+XM_019925131.2  agtgtaaatactgctgtaaatagttgcctgatggtggcttt------------gacagtg
+XM_036862984.1  --------taaccctccatattg--gtcttaaggcaacttagagtatgcaaaatacaaca
+                                                                            
+
+NM_014491.4     agctagcttctg------------------------------------------------
+NM_053242.4     ------------------------------------------------------------
+XM_063813769.1  gagaagcttgtgggagaga-----------------------------------------
+XM_038439870.1  ------------------------------------------------------------
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  agctagcttctg------------------------------------------------
+XM_036862984.1  agatggcataaattaaaaataggaataaaatgagacagaaaaacaagggtggggaaagtc
+                                                                            
+
+NM_014491.4     -------------------------------agttttcccttctttttatactgttttct
+NM_053242.4     --------------------------------cttcttctccaatgtgatgctg------
+XM_063813769.1  ------------------------------aaggtctactctaatgtgatgctg------
+XM_038439870.1  -----------------------------------ctattctaatgtgatgctg------
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  -----------------------------------ctactctaatgtgatgctg------
+XM_019925131.2  -------------------------------agttttcccttctttttatactgttttcc
+XM_036862984.1  cttttcccagaaaatcaacaacaacaacatcgtggctactgtaatgtgatgctg------
+                                                                            
+
+NM_014491.4     gtgctggcttttttgaatcttcctaatttttcatctctttaacaaactcctatgaagttg
+NM_053242.4     ---------gagttgaatgaacttaggactccactcc----------------aaggttg
+XM_063813769.1  ---------ggattgaattttcctaggactccgtttc----------------aaggttg
+XM_038439870.1  ---------ggattgagtttaccttggactccacatc----------------aaggttg
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ---------ggattgaatctacctaggactttatttc----------------aaggttg
+XM_019925131.2  acactggc-tttttgaatcttcctaatttttcacctctttaacaaactcctatgaagttg
+XM_036862984.1  ---------ggattgaatttacctagggctccatatc----------------aaggttg
+                                                                            
+
+NM_014491.4     aaaccgggaagtttgctctaacatttccagaga--aggtattaagtcatgatgcaggaat
+NM_053242.4     --acttgaaaggtgtgtagaagattggaaagagaaaggtattaagtcatgatgcaggaat
+XM_063813769.1  --attcgaaagtcttgtggaagatctggaagaaacaggtattaagtcatgatgcaggaat
+XM_038439870.1  --actcgaaagtcttgtagaagatctggacgaaatacgtattaagtcatgatgcaggaat
+NM_001205569.3  -----------------------------------------------atgatgcaggaat
+XM_023544567.1  --actcaaaagtcttgtggcagatctgaaaaaa-ctagtattaagtcatgatgcaggaat
+XM_019925131.2  aaaccgggaagtttgctctaacatttcaagaga--aggtattaagtcatgatgcaggaat
+XM_036862984.1  --actcgaaagtcttgaggaagatctggaagaaataggtattaagtcatgatgcaggaat
+                                                               *************
+
+NM_014491.4     ctgcgacagagacaataagcaacagttcaatgaatcaaaatggaatgagcactctaagca
+NM_053242.4     ctgcgacagagacaataagcaacagttcaatgaatcaaaatggaatgagcactttaagca
+XM_063813769.1  ctgcgacagagacaataagcaacagttcaatgaatcaaaatggaatgagcactctaagca
+XM_038439870.1  ctgcgacagagacaataagcaacagttcaatgaatcaaaatggaatgagcactctaagca
+NM_001205569.3  ctgcgacagagacaataagcaacagttcaatgaatcaaaatggaatgagcactctaagca
+XM_023544567.1  ctgcgacagagacaataagcaacagttcaatgaatcaaaatggaatgagcactctaagca
+XM_019925131.2  ctgcgacagagacaataagcaacagttcaatgaatcaaaatggaatgagcactctaagca
+XM_036862984.1  ctgcgacagagacaataagcaacagttcaatgaatcaaaatggaatgagcactctgagca
+                *****************************************************.*.****
+
+NM_014491.4     gccaattagatgctggcagcagagatggaagatcaagtggtgacaccagctctgaagtaa
+NM_053242.4     gccaattagatgctggcagcagggatgggagatcaagtggtgacaccagctctgaagtaa
+XM_063813769.1  gccaattagatgctggcagcagagatggaagatcaagtggtgacaccagctctgaagtaa
+XM_038439870.1  gccaattagatgctggcagcagagatggaagatcaagtggtgacaccagctcggaagtaa
+NM_001205569.3  gccaattagatgctggcagcagagatggaagatcaagtggtgacaccagctctgaagtaa
+XM_023544567.1  gccaattagatgctggcagcagagatggaagatcaagtggtgacaccagctctgaagtaa
+XM_019925131.2  gccaattagatgctggcagcagagatggaagatcaagtggtgacaccagctctgaagtaa
+XM_036862984.1  gccaattagatgctggcagcagagatggaagatcaagtggtgacaccagctctgaagtaa
+                **********************.*****.*********************** *******
+
+NM_014491.4     gcacagtagaactgctgcatctgcaacaacagcaggctctccaggcagcaagacaacttc
+NM_053242.4     gcacagtggagctgctgcatctgcaacaacagcaggctctccaggcagcaagacaacttt
+XM_063813769.1  gcacagtagaactgctgcatctgcaacaacagcaggctctccaggcggcaagacaacttc
+XM_038439870.1  gcacagtagaactgctgcatctgcaacaacagcaggctctccaagcagcgagacaacttc
+NM_001205569.3  gcacagtagaactgctgcatctgcaacaacagcaggctctccaagcagcaagacaacttc
+XM_023544567.1  gcacagtggaactgctgcacctgcaacaacagcaggctctccaggcagcaagacaacttc
+XM_019925131.2  gcacagtagaactgctgcatctgcaacaacagcaggctctccaagcagcaagacaacttc
+XM_036862984.1  gcacagtagaactgctgcatctgcaacaacagcaggctctccaagcagcaagacaacttc
+                *******.**.********.***********************.**.**.*********.
+
+NM_014491.4     ttttacagcagcaaacaagtggattgaaatctcctaagagcagtgataaacagagaccac
+NM_053242.4     tgttacagcagcaaaccagtggattgaaatctcctaagagcagtgagaagcagaggccac
+XM_063813769.1  ttttacagcagcaaacaagtggattgaaatctcctaagagcagtgataaacagagaccac
+XM_038439870.1  tcttacagcagcaaacaagtggattgaaatctcctaagagcagtgataaacagagaccac
+NM_001205569.3  tcttacagcagcagacaagtggattgaaatctcccaagagcagtgataaacagagaccac
+XM_023544567.1  tcttacagcagcaaacaagtggattgaaatctcctaagagcagtgataaacagagaccac
+XM_019925131.2  tcttacagcagcaaacaagtggattgaaatctcctaagagcagtgacaaacagagaccac
+XM_036862984.1  tcttacagcagcaaacaagtggattgaaatctcctaagagcagtgacaaacagagaccac
+                * ***********.** *****************.*********** **.*****.****
+
+NM_014491.4     tgcagg------------------------------------------------------
+NM_053242.4     tgcagg------------------------------------------------------
+XM_063813769.1  tgcagg---aattgcttccagaaacaaaattatgtatctgtggccactcttctggtgatg
+XM_038439870.1  tgcagg---aattgcttccagaaacaaaattatgtgtctgtggccactcttctggtgatg
+NM_001205569.3  tgcagg---aattgcttccagaaacaaaattatgtgtctgtggccactcttctggtgatg
+XM_023544567.1  tgcaggttaaattgctcccagaaacaaaattatgtgtctgtggcttctcttctggtaatg
+XM_019925131.2  tgcagg---aattgcttccagaaacaaaattatgtgtctgtggccactcttctggtgatg
+XM_036862984.1  tgcagg---aattgcttccagaaacaaaattatgtgtctgtggccactcttctggtgatg
+                ******                                                      
+
+NM_014491.4     ------------------------tgcctgtgtcagtggccatgatgactccccaggtga
+NM_053242.4     ------------------------tgcccgtgtcggtggccatgatgactccccaagtga
+XM_063813769.1  ggcatcctcacaacacatttgcagtgcctgtgtcagtggccatgatgactccccaggtga
+XM_038439870.1  ggcatcctcacaacacatttgcagtgcccgtgtcagtggccatgatgactccccaggtga
+NM_001205569.3  ggcatcctcacaacacatttgcagtgcctgtgtcggtggccatgatgactccccaggtga
+XM_023544567.1  gccatccttataacacacttacagtgcctgtgtcagtggccatgatgaccccccaggtga
+XM_019925131.2  ggcatcctcacaacacatttgcagtgcctgtgtcggtggccatgatgactccccaggtga
+XM_036862984.1  ggcatcctcacaacacatttgcagtgcctgtgtcggtggccatgatgactccccaggtga
+                                        ****.*****.**************.*****.****
+
+NM_014491.4     tcacccctcagcaaatgcagcagatccttcagcaacaagtcctgtctcctcagcagctac
+NM_053242.4     tcacccctcagcagatgcagcagattcttcagcagcaggtcctgtctcctcagcagctcc
+XM_063813769.1  tcacccctcagcaaatgcagcagatccttcagcaacaagtcctgtctcctcagcagctcc
+XM_038439870.1  tcacccctcagcaaatgcagcagatccttcagcagcaagtcctgtctcctcagcagctcc
+NM_001205569.3  tcacccctcagcaaatgcagcaaatccttcagcagcaagtcctgtctcctcagcaactcc
+XM_023544567.1  tcacccctcagcaaatgcagcagatccttcagcagcaagtcctgtctcctcagcagctcc
+XM_019925131.2  tcacccctcagcaaatgcagcagatccttcagcagcaagtcctgtctcctcagcagctcc
+XM_036862984.1  tcacccctcagcaaatgcagcagatccttcagcagcaagtcctgtctcctcagcagctcc
+                *************.********.**.********.**.*****************.** *
+
+NM_014491.4     aagcccttctccaacaacagcaggctgtcatgctgcag----------------------
+NM_053242.4     aggccctcctccagcagcagcaagctgtgatgttgcag----------------------
+XM_063813769.1  aagcccttctccaacaacagcaggctgtcatgctgcagcaggattttttggattctggat
+XM_038439870.1  aagccctccttcagcagcagcaggcagtcatgctgcagcag-------------------
+NM_001205569.3  aagcccttctccagcagcagcaggcagtcatgctgcag----------------------
+XM_023544567.1  aagcccttctccagcagcagcaggcagtcatgctgcag----------------------
+XM_019925131.2  aagcccttctccagcagcagcaggcagtcatgctgcag----------------------
+XM_036862984.1  aagcccttcttcagcagcagcaggcagtcatgctgcag----------------------
+                *.*****.**.**.**.*****.** ** ***.*****                      
+
+NM_014491.4     -----------------------------------------------cagcaacaactac
+NM_053242.4     -----------------------------------------------cagcaacaactac
+XM_063813769.1  tggaaaatttcagagctgccttggaaaaaaattcaaaatggtttattcagcaacaactac
+XM_038439870.1  --------------------------------tcaaaatggtttattcagcaacaactac
+NM_001205569.3  -----------------------------------------------cagcaacaactac
+XM_023544567.1  -----------------------------------------------cagcaacaactac
+XM_019925131.2  -----------------------------------------------cagcaacaactac
+XM_036862984.1  -----------------------------------------------cagcaacaactgc
+                                                               ***********.*
+
+NM_014491.4     aagagttttacaagaaacagcaagagcagttacatcttcagcttttgcagcagcagcagc
+NM_053242.4     aagagttttacaagaaacagcaagaacagttacatcttcagcttttgcaacagcagcaac
+XM_063813769.1  aagagttttacaagaaacagcaagagcagttacatcttcagcttttgcagcagcagcagc
+XM_038439870.1  aagagttttacaagaaacagcaagagcagttacatcttcagcttttgcagcagcagcaac
+NM_001205569.3  aagagttttacaagaaacagcaagagcagttacatcttcagcttttgcagcagcagcaac
+XM_023544567.1  aagagttttacaagaaacagcaagagcagttacatcttcagcttttgcagcagcag---c
+XM_019925131.2  aagagttttacaagaaacagcaagagcagttacatcttcagcttttgcagcagcagcaac
+XM_036862984.1  aagagttttacaagaaacagcaagagcagttacatcttcagcttttgcagcagcagcaac
+                *************************.***********************.******   *
+
+NM_014491.4     aacagcagcagcagcaacaacagcagcaacaacagcagcagcaacaacaacaacaacagc
+NM_053242.4     agcagcagcagcaacagcagcaacagcagcagcagcagcagcaacaacagcagcagcagc
+XM_063813769.1  aacagcagcagcagcaacaacagcagcaacaacagcagcagcaacaacaacaacagcagc
+XM_038439870.1  agcagcagcagcagcagcagcagcagcaacagcagcagcagcagcagcagcagcaacagc
+NM_001205569.3  agcagcagcagcagcagcagcaacagcaacagcagcagcagcagcaacagcagcagcagc
+XM_023544567.1  agcagcagcaacagcagcagcagcagcagcagcagcaacagcaacagcagcagcagcagc
+XM_019925131.2  agcagcagcagcagcaacagcagcagcagcaacagcagcagcagcagcaacagcagcagc
+XM_036862984.1  agcagcagcagcagcagcagcagcaacagcagcagcaacagcagcagcaacagcagcagc
+                *.********.**.**.**.**.**.**.**.*****.*****.**.**.**.**.****
+
+NM_014491.4     agcaacaacagcagcagcagcagcaac---agcagcagcagcagcaacagcatcctggaa
+NM_053242.4     agcaacagcaacagcagcagcagcaac---agcagcagcaacagcaacagcatcctggaa
+XM_063813769.1  agcagcaacaacagcagcagcagcagcaacagcagcagcagcagcaacagcatcctggaa
+XM_038439870.1  agcagcagccccagcagccg------------------ccgccgccgccgcaccccggca
+NM_001205569.3  aacaacagcagcagcaacagcagcag------------ccgcagcaacagcatcctggaa
+XM_023544567.1  agcaacagcagcagcaacagcagcag------------cagcagcagcagcatcctggaa
+XM_019925131.2  agcaacagcagcagcaacaacag---------------cagcagcagcagcatcccggaa
+XM_036862984.1  agcaacagcagcagcaacagcagcag------------ccgccgccacagcatcctggaa
+                *.**.**.*  *****.* .                  * .* ** .* ***.**.** *
+
+NM_014491.4     agcaagcgaaagag----------------------------------------------
+NM_053242.4     agcaagcaaaagag----------------------------------------------
+XM_063813769.1  agcaagcgaaagag----------------------------------------------
+XM_038439870.1  agcaggcgaaagag----------------------------------------------
+NM_001205569.3  agcaagcaaaagaggtaggatccggccagctcatccat----------------------
+XM_023544567.1  agcaagcaaaagag----------------------------------------------
+XM_019925131.2  agcaagcgaaagaggtaggatctggccggctcacccacgcagaggagggcgaggctggga
+XM_036862984.1  agcaagcgaaagag----------------------------------------------
+                ****.**.******                                              
+
+NM_014491.4     --------------cagcagcagcagcagcagcagcaacagcaattggcagcccagcagc
+NM_053242.4     -----------------cagcagcagcaacagcagcagcagcagttggcggcgcagcagc
+XM_063813769.1  --------------cagcagcagcagcagcagcagcaacagcaattggcagcccagcagc
+XM_038439870.1  --------------------------cagcagcagcagcagcagttggcagcgcagcagc
+NM_001205569.3  --------------gcagaggagcgcgagcagcagcagcagcagttggcagcccagcagc
+XM_023544567.1  --------------agagagcaacagcagcagcagcagcagcagttggcagcccagcagc
+XM_019925131.2  ggggccctcggaggccagggcagcaacagcagcagcagcagcagttggcggcccagcagc
+XM_036862984.1  --------------------------cagcagcagcagcagcagttggcggcccagcagc
+                                           *.********.*****.*****.** *******
+
+NM_014491.4     ttgtcttccagcagcagcttctccagatgcaacaactccagcagcagcagcatctgctca
+NM_053242.4     tcgtcttccagcagcagcttctccaaatgcagcagctacagcagcaacaacatctgctca
+XM_063813769.1  ttgtcttccagcagcagcttctccagatgcaacaactccagcagcagcagcatctgctca
+XM_038439870.1  ttgtcttccagcagcagctcctccagatgcaacaactccagcagcagcagcatctgctca
+NM_001205569.3  ttgtcttccagcagcagcttctccagatgcaacaactccagcagcagcagcatctgctca
+XM_023544567.1  ttgtcttccagcagcagcttctccagatgcagcaactccagcagcagcagcatctgctga
+XM_019925131.2  ttgtcttccagcagcagctcctccagatgcagcaactccagcagcagcagcatctgctca
+XM_036862984.1  ttgtcttccagcagcagctcctccagatgcagcaactccaacagcagcagcatctgctca
+                *.*****************.*****.*****.**.** **.*****.**.******** *
+
+NM_014491.4     gccttcagcgtcagggactcatctccattccacctggccaggcagcacttcctgtccaat
+NM_053242.4     gccttcagcgccagggcctcatctccatcccacccggccaagcagcccttcctgtccagt
+XM_063813769.1  gccttcagcgtcagggactcatctccattccacctggccaggcagcacttcctgtccaat
+XM_038439870.1  gccttcagcgtcagggactcatctccatcccacctggccaggcggcacttcctgtccaat
+NM_001205569.3  gccttcagcgtcagggactcatctcgatcccacctggccaggcggcacttccagtccagt
+XM_023544567.1  gccttcagcgtcagggactcatctccatcccacctggccaggcggcactccccgtccagt
+XM_019925131.2  gccttcagcgtcagggactcatctccatcccacctggccaggcggcccttcctgtccagt
+XM_036862984.1  gccttcagcgtcagggactcatctccatcccacctggccaggcagcccttcctgtccagt
+                **********.***** ******** **.*****.*****.**.** **.** *****.*
+
+NM_014491.4     cgctgcctcaagctggcttaagtcctgctgagattcagcagttatggaaagaagtgactg
+NM_053242.4     cgctgcctcaagctggcttaagtcctgctgagattcagcaactatggaaagaagtgactg
+XM_063813769.1  cgctgcctcaagctggcttaagtcctgctgagattcagcagttatggaaagaagtgactg
+XM_038439870.1  cgctgcctcaagctggcttaagtcctgctgagattcagcagttatggaaagaagtgactg
+NM_001205569.3  cgctgcctcaagctggcttaagtcctgccgaaattcagcagttatggaaagaagtgactg
+XM_023544567.1  cgctgcctcaagctggcttaagtcctgctgagatccaacagttatggaaagaagtgactg
+XM_019925131.2  cgctgcctcaagctggcttaagtcctgctgagattcagcagttatggaaagaagtgactg
+XM_036862984.1  cgctgcctcaagctggcttaagtcctgctgagattcagcagttatggaaagaagtgactg
+                ****************************.**.**.**.**..******************
+
+NM_014491.4     gagttcacagtatggaagacaatggcattaaacatggagggctagacctcactactaaca
+NM_053242.4     gagtccatagtatggaagacaacggcatcaagcatggagggctagacctcacgactaaca
+XM_063813769.1  gagttcacagtatggaagacaatggcattaaacatggagggctagacctcactactaaca
+XM_038439870.1  gagttcacagtatggaagacaatggcattaaacatggagggctagacctcactactaaca
+NM_001205569.3  gagttcacagtatggaagacaatggcattaagcatggagggctagacctcactactaaca
+XM_023544567.1  gagttcacagtatggaagacaatggcattaaacatggagggctagacctcactactaaca
+XM_019925131.2  gagttcacagtatggaagacaacggcattaagcatggaggactagacctcactactaaca
+XM_036862984.1  gagttcacagtatggaagacaacggcattaagcatggagggctagacctcactactaaca
+                ****.**.**************.*****.**.********.*********** *******
+
+NM_014491.4     attcctcctcgactacctcctccaacacttccaaagcatcaccaccaataactcatcatt
+NM_053242.4     attcctcctcgactacctcctccaccacgtccaaagcatcaccacccatcacacatcatt
+XM_063813769.1  attcctcctcgactacctcctccaccacttccaaagcgtcaccaccaataactcatcatt
+XM_038439870.1  attcctcctcgactacctcctccaccacttccaaagcatcaccaccaataacccatcatt
+NM_001205569.3  attcctcctcgactacctcctccaccacttccaaagcatcaccaccaataacccatcata
+XM_023544567.1  attcctcctcgactacctcctccaccacttccaaagcatcaccaccaataactcatcatt
+XM_019925131.2  attcctcctcgactacctcccccaccgcttccaaagcgtcaccaccaataacccatcact
+XM_036862984.1  attcctcctcgactacctcccccaccgcttccaaagcgtcaccaccaataacccatcact
+                ********************.*** *.* ********.******** ** ** *****. 
+
+NM_014491.4     ccatagtgaatggacagtcttcagttctaagtgcaagacgagacagctcgtcacatgagg
+NM_053242.4     ccatagtgaacggacagtcttcagttctgaatgcaaggcgggacagctcatcacatgagg
+XM_063813769.1  ccatcgtgaatggacagtcttcagttctaaatgcaagacgagacagctcgtcacatgagg
+XM_038439870.1  ccatagtgaatggacagtcttcagtcctaagtgcaaggcgagacagctcgtcacacgagg
+NM_001205569.3  ccatagtgaatggacagtcttcagttctaaatgcaaggcgagacagctcgtcacatgagg
+XM_023544567.1  ccatagtgaatggacagtcttcagttctaaatgcaaggcgagacagctcgtcacatgagg
+XM_019925131.2  ccatggtgaatggacagtcttcagttctaaatgcaaggcgagacagctcatcacatgagg
+XM_036862984.1  ccatggtgaatggacagtcttcagttctaaatgcaaggcgagacagctcatcacatgagg
+                **** *****.**************.**.*.******.**.********.*****.****
+
+NM_014491.4     agactggggcctctcacactctctatggccatggagtttgcaaatggccaggctgtgaaa
+NM_053242.4     agactggggcctcgcacactctctatggccatggagtctgcaagtggccaggctgtgaaa
+XM_063813769.1  agactggggcctctcacactctctatggccatggagtttgcaaatggccaggctgtgaaa
+XM_038439870.1  agactggggcttctcacactctgtacggccatggagtttgcaaatggccaggctgtgaaa
+NM_001205569.3  agactggggcctctcacactctctacggccatggagtttgcaaatggccaggctgtgaaa
+XM_023544567.1  agactggggcgtgtcatactctctatggccatggagtctgcaaatggccaggttgtgaaa
+XM_019925131.2  agactggggcctctcacactctctacggccatggagtttgcaaatggccaggctgtgaaa
+XM_036862984.1  agactggggcctctcacactctctacggccatggagtttgcaaatggccaggctgtgaaa
+                ********** *  **.***** **.***********.*****.********.*******
+
+NM_014491.4     gcatttgtgaagattttggacagtttttaaagcaccttaacaatgaacacgcattggatg
+NM_053242.4     gcatatgtgaagattttggacagtttttgaagcaccttaacaatgagcatgcattggatg
+XM_063813769.1  gcatttgtgaagattttggacagtttttaaagcaccttaacaatgaacacgcattggatg
+XM_038439870.1  gcatttgtgaagattttggacagtttttaaagcaccttaacaatgaacacgcgctggacg
+NM_001205569.3  gcatttgtgaagattttggacagtttttaaagcaccttaacaacgaacacgcgctggatg
+XM_023544567.1  gcatttgtgaagattttggacagtttttaaagcaccttaacaacgaacatgcgttggatg
+XM_019925131.2  gcatttgtgaagactttggacagtttttaaagcaccttaacaacgaacatgcattggacg
+XM_036862984.1  gcatttgtgaagactttggacagtttttaaagcaccttaacaacgaacatgcattggacg
+                **** ********.**************.**************.**.**.**..****.*
+
+NM_014491.4     accgaagcactgctcagtgtcgagtgcaaatgcaggtggtgcaacagttagaaatacagc
+NM_053242.4     accgaagcactgcccaatgtcgagtgcaaatgcaggtggtacagcagttagaaatacagc
+XM_063813769.1  accgaagcactgctcagtgtcgagtgcaaatgcaggtggtgcaacagttagaaatacagc
+XM_038439870.1  accgaagcactgcccagtgtcgagtgcaaatgcaggtggtccaacagttagaaatacagc
+NM_001205569.3  accgaagcaccgcacagtgtcgagtgcaaatgcaggtggtgcagcagttagagatacagc
+XM_023544567.1  acagaagcactgcccagtgtcgagtgcaaatgcaggtggtacaacagttagaaatacagc
+XM_019925131.2  acagaagcactgcccagtgtcgagtgcaaatgcaggtggtgcagcagttagaaatacagc
+XM_036862984.1  acagaagcactgcccagtgtcgagtgcaaatgcaggtggtgcagcagttagaaatacagc
+                ** *******.** **.*********************** **.********.*******
+
+NM_014491.4     tttctaaagaacgcgaacgtcttcaagcaatgatgacccacttgcacatgcgaccctcag
+NM_053242.4     tttctaaggaacgcgaacgtcttcaagcgatgatgacccacttgcacatgcgaccctcag
+XM_063813769.1  tttctaaagaacgcgaacgtcttcaagcaatgatgacccacttgcacatgcgaccctcag
+XM_038439870.1  tttctaaagaacgcgaacgtcttcaagcaatgatgacccacttgcacatgcgaccctccg
+NM_001205569.3  tttctaaagaacgcgaacgtcttcaagcgatgatgacccacttgcacatgcgaccctcag
+XM_023544567.1  tttctaaagaacgcgaacgtcttcaagcaatgatgacccacttgcacatgcgaccctcag
+XM_019925131.2  tttctaaagaacgcgaacgtcttcaagcaatgatgacccacttgcacatgcgaccctcag
+XM_036862984.1  tttctaaagaacgcgaacgtcttcaagcaatgatgacccacttgcacatgcgaccctcag
+                *******.********************.***************************** *
+
+NM_014491.4     agcccaaaccatctcccaaacctctaaatctggtgtctagtgtcaccatgtcgaagaata
+NM_053242.4     agcccaaaccatctcccaaacctctaaatctggtgtctagtgtcaccatgtcgaagaaca
+XM_063813769.1  agcccaaaccatctcccaaacctctaaatctggtgtctagtgtcaccatgtcgaagaata
+XM_038439870.1  agcccaaaccatctcccaaacctctaaatctggtgtctagtgtcaccatgtcgaagaaca
+NM_001205569.3  agcccaaaccatctcccaaacctctaaatctggtgtctagtgtcaccatgtcgaagaaca
+XM_023544567.1  agcccaaaccatctcccaaacctctaaatctggtgtctagtgtcaccatgtcgaagaaca
+XM_019925131.2  agcccaagccgtctcccaaacctctaaatctggtgtctagtgtcaccatgtcgaagaaca
+XM_036862984.1  agcccaaaccatctcccaaacctctaaatctggtgtctagtgtcaccatgtcgaagaaca
+                *******.**.***********************************************.*
+
+NM_014491.4     tgttggagacatccccacagagcttacctcaaacccctaccacaccaacggccccagtca
+NM_053242.4     tgctggagacatccccacagagcttacctcaaacccctaccacaccaacggccccagtca
+XM_063813769.1  tgttggagacatccccacagagcttacctcaaacccctaccacaccaacggccccagtca
+XM_038439870.1  tgttggagacatccccacagagcttacctcaaacccctaccacaccaacggccccagtca
+NM_001205569.3  tgttggagacatccccacagagcttacctcaaacccctaccacaccaacggccccagtca
+XM_023544567.1  tgttggagacatccccacagagcttacctcaaacccctaccacaccaacggccccagtca
+XM_019925131.2  tgttggagacatccccacagagcttacctcaaacccctaccacaccaacggccccagtca
+XM_036862984.1  tgttggagacatccccacagagcttacctcaaacccctaccacaccaacggccccagtca
+                **.*********************************************************
+
+NM_014491.4     ccccgattacccagggaccctcagtaatcaccccagccagtgtgcccaatgtgggagcca
+NM_053242.4     ccccgattacccagggaccctctgtaatcaccccagccagtgtgcccaatgtgggagcca
+XM_063813769.1  ccccgattacccagggaccctcagtaatcaccccagccagtgtgcccaatgtgggagcca
+XM_038439870.1  ccccgattacccagggaccctcagtaatcaccccagccagtgtgcccaatgtgggagcca
+NM_001205569.3  ccccgattacccagggaccctcagtaatcaccccagccagtgtgcccaatgtgggagcca
+XM_023544567.1  ccccgattacccagggaccctcagtaatcaccccagccagtgtgcccaatgtgggagcca
+XM_019925131.2  ccccgattacccagggaccctcagtaatcaccccagccagtgtgcccaatgtgggagcca
+XM_036862984.1  ccccgattacccagggaccctcagtaatcaccccagccagtgtgcccaatgtgggagcca
+                ********************** *************************************
+
+NM_014491.4     tacgaaggcgacattcagacaaatacaacattcccatgtcatcagaaattgccccaaact
+NM_053242.4     tacgaaggcgacattcagacaaatacaacatccccatgtcatcagagattgccccaaact
+XM_063813769.1  tacgaaggcgacattcagacaaatacaacattcccatgtcatcagaaattgccccaaact
+XM_038439870.1  tacgaaggcgacattcagacaaatacaacattcccatgtcatcagagattgccccaaact
+NM_001205569.3  tacgaaggcgacattcagacaaatacaacattcccatgtcatcagagattgccccaaact
+XM_023544567.1  tacgaaggcgacattcagacaaatacaacattcccatgtcatcagaaattgccccaaact
+XM_019925131.2  tacgaaggcgacattcagacaaatacaacattcccatgtcatcagagattgccccaaact
+XM_036862984.1  tacgaaggcgacattcagacaaatacaacattcccatgtcatcagagattgccccaaact
+                *******************************.**************.*************
+
+NM_014491.4     atgaattttataaaaatgcagatgtcagacctccatttacttatgcaactctcataaggc
+NM_053242.4     acgaattttataaaaacgcagatgttagacctcccttcacttatgcaacactcataaggc
+XM_063813769.1  atgaattttataaaaatgcagatgtcagacctccatttacttatgcaactctcataaggc
+XM_038439870.1  acgaattttataaaaatgcagatgtcagacctccatttacttatgcaactctcataaggc
+NM_001205569.3  acgagttttataaaaatgcagatgtcagaccaccatttacatatgcaactctcataaggc
+XM_023544567.1  acgaattttataaaaatgcagatgtcagacctccatttacttatgcaactctcataaggc
+XM_019925131.2  acgagttttataaaaatgcagatgtcagacctccatttacttatgcaactctcataaggc
+XM_036862984.1  acgagttttataaaaatgcagatgtcagacctccatttacttatgcaactctcataaggc
+                *.**.***********.********.***** ** **.** ******** **********
+
+NM_014491.4     aggctatcatggagtcatctgacaggcagttaacacttaatgaaatttacagctggttta
+NM_053242.4     aggctatcatggagtcatctgacaggcagttaacacttaatgaaatttacagctggttta
+XM_063813769.1  aggctatcatggagtcatctgacaggcagttaacacttaatgaaatttacagctggttta
+XM_038439870.1  aggctatcatggagtcatctgacaggcagttaacacttaatgaaatttacagctggttta
+NM_001205569.3  aggctatcatggagtcatctgacaggcagttaacacttaatgaaatttacagctggttta
+XM_023544567.1  aggctatcatggaatcatctgacaggcagttaacacttaatgaaatttacagctggttta
+XM_019925131.2  aggctatcatggagtcatctgacaggcagttaacacttaatgaaatttacagctggttta
+XM_036862984.1  aggctatcatggagtcatctgacaggcagttaacacttaatgaaatttacagctggttta
+                *************.**********************************************
+
+NM_014491.4     cacggacatttgcttacttcaggcgtaatgcagcaacttggaagaatgcagtacgtcata
+NM_053242.4     cacggacatttgcttacttcaggcggaatgccgccacttggaagaatgcagtgcgtcata
+XM_063813769.1  cacggacatttgcttacttcaggcgtaatgcagcaacttggaagaatgcagtacgtcata
+XM_038439870.1  cacggacatttgcttacttcaggcgaaatgcagcaacttggaagaacgccgtacgtcata
+NM_001205569.3  cacggacatttgcttacttcaggcggaatgcggcaacttggaagaatgcagtacgtcata
+XM_023544567.1  cgcggacatttgcttacttcaggcgtaatgcagcaacttggaagaatgcagtacgtcata
+XM_019925131.2  cacggacatttgcttacttcaggcggaatgcagcaacttggaagaatgcagtacgtcata
+XM_036862984.1  cacggacatttgcttacttcaggcggaatgcagcaacttggaagaatgcagtacgtcata
+                *.*********************** ***** ** ***********.** **.*******
+
+NM_014491.4     atcttagcctgcacaagtgttttgttcgagtagaaaatgttaaaggagcagtatggactg
+NM_053242.4     atcttagcctgcacaaatgttttgttcgagtagaaaatgttaaaggagcagtgtggactg
+XM_063813769.1  atcttagcctgcacaagtgttttgttcgagtagaaaatgttaaaggagcagtatggactg
+XM_038439870.1  acctcagcctgcacaagtgttttgttcgggtagaaaacgttaaaggggcggtgtggactg
+NM_001205569.3  atcttagcctgcacaagtgttttgttcgagtagaaaatgttaaaggagcagtatggactg
+XM_023544567.1  atcttagcctgcacaagtgttttgttcgagtagaaaacgttaaaggagcggtgtggacag
+XM_019925131.2  atcttagcctgcacaagtgttttgttcgagtagaaaatgttaaaggagcagtgtggaccg
+XM_036862984.1  atcttagcctgcacaagtgttttgttcgagtagaaaatgttaaaggagcggtgtggaccg
+                *.**.***********.***********.********.********.**.**.***** *
+
+NM_014491.4     tggatgaagtagaataccagaagcgaaggtcacaaaagataacaggaagtccaaccttag
+NM_053242.4     tggacgaagtcgaataccagaagcgaaggtcacaaaagataacaggaagtccaactttag
+XM_063813769.1  tggatgaagtagaataccagaagcgaaggtcacaaaagataacaggaagtccaaccttag
+XM_038439870.1  tggatgaagttgagtaccagaagcgaaggtcacaaaagataacaggaagcccaaccttag
+NM_001205569.3  tggatgaggtagaataccagaagcgaaggtcacaaaagataacaggaagcccaaccttag
+XM_023544567.1  tggatgaagtagaataccagaagcgaaggtcgcaaaagataacaggaagcccaaccttag
+XM_019925131.2  tggatgaagtagaataccagaagcgaaggtcgcagaagataacaggaagcccaaccttag
+XM_036862984.1  tggatgaagtagaataccagaagcgaaggtcacagaagataacaggaagcccaaccttag
+                ****.**.** **.*****************.**.**************.*****.****
+
+NM_014491.4     taaaaaatatacctaccagtttaggctatggagcagctcttaatgccagtttgcaggctg
+NM_053242.4     taaaaaatatacctacaagtttgggctatggagcagctctaaatgccagtctgcaggctg
+XM_063813769.1  taaaaaatatacctaccagtttaggctatggagcagctcttaatgccagtttgcaggctg
+XM_038439870.1  taaaaaatatacctaccagtttaggctatggagcagctctcaatgccagtttgcaggctg
+NM_001205569.3  taaaaaacatacctaccagtttaggctatggagcagctctgaatgccagtttgcaggctg
+XM_023544567.1  taaaaaatatacccacaagtttaggctatggagcagctcttaatgccagtttgcaggctg
+XM_019925131.2  taaaaaatatacctaccagtttaggctatggagcagctctgaatgccagcttacaggctg
+XM_036862984.1  taaaaaatatacctaccagtttaggctatggagcagctctgaatgccagcttgcaggctg
+                *******.*****.** *****.***************** ********..*.*******
+
+NM_014491.4     ccttggcagagagcagtttacctttgctaagtaatcctggactgataaataatgcatcca
+NM_053242.4     ccttggcagaaagcagcttgcctttgctaagtaaccctggactgatcaataacgcctcca
+XM_063813769.1  ccttggcagagagcagtttacctttgctaagtaatcctggactgataaataatgcatcca
+XM_038439870.1  ccttggcggagagcagtttacctttgcttagtaacccgggactgatcaataacgcctcca
+NM_001205569.3  ccttggcagagagcagtttacctttgctaagtaaccccgggctgatcaataacgcctcca
+XM_023544567.1  ccttggcggagagcagtttacctttgctaagtaaccccggactgatcaataacgcctcca
+XM_019925131.2  ccttggcagagagcagtttacctttgctaagtaaccctggactgatcaataacacctcca
+XM_036862984.1  ccttggcagagagcagtttgcctttgctaagtaaccctggactgatgaataacacctcca
+                *******.**.*****.**.******** *****.** **.***** *****..* ****
+
+NM_014491.4     gtggcctactgcaggccgtccacgaagacctcaatggttctctggatcacattgacagca
+NM_053242.4     gtggcctcctgcaggccgtccacgaagacctcaatggttccctggaccacatcgacagca
+XM_063813769.1  gtggcctactgcaggccgtccacgaagacctcaatggttctctggatcacatcgacagca
+XM_038439870.1  gcggcctgcttcaggccgtccacgaagacctcaatggctcgctggaccacatcgacagca
+NM_001205569.3  gcggcctgctgcaggctgtccacgaagacctcaatggttccctggatcatatcgacagca
+XM_023544567.1  gtggcctactgcaggccgtccacgaagacctcaatggttccctggatcacatcgacagca
+XM_019925131.2  gcggcctgctgcaggctgtccacgaagacctcaatggttccctggatcacatcgacagca
+XM_036862984.1  gtggcctgttgcaggccgtccacgaagacctcaatggttccctggatcacatcgacagca
+                *.***** .* *****.********************.** *****.**.**.*******
+
+NM_014491.4     atggaaacagtagtccgggctgctcacctcagccgcacatacattcaatccacgtcaagg
+NM_053242.4     atgggaacagcagtccgggttgctcacctcagccacacatacattcaatccatgtcaagg
+XM_063813769.1  atggaaacagtagtccgggctgctcacctcagccgcacatacattcaatccacgtcaagg
+XM_038439870.1  acgggaacagcagtccgggctgctcgccgcagccgcacatacattcaatccatgtcaagg
+NM_001205569.3  atgggaacagcagcccaggctgctcgcctcagccgcacatacattcaattcatgtcaagg
+XM_023544567.1  atgggaacagcagtccgggctgctcgccgcagccgcacatacactcaatccatgtcaagg
+XM_019925131.2  atgggaacagcagcccgggctgctcacctcagccgcacatacattcaattcatgtcaagg
+XM_036862984.1  atgggaacagcagcccgggctgctcacctcagccgcacatacattcaattcatgtcaagg
+                *.**.*****.**.**.**.*****.** *****.********.*****.**.*******
+
+NM_014491.4     aagagccagtgattgcagaggatgaagactgcccaatgtccttagtgacaacagctaatc
+NM_053242.4     aagaacccgtgattgcagaggatgaagactgtccaatgtcattagtgacaacagccaatc
+XM_063813769.1  aagagccagtgattgcagaggatgaagactgcccaatgtccttagtgacaacagctaatc
+XM_038439870.1  aagagccagtgattgcagaggatgaagactgcccaatgtccttagtgaccacagctaatc
+NM_001205569.3  aagagccagtgattgccgaggatgaagactgccccatgtccttagtgacaacagctaatc
+XM_023544567.1  aggagccagtgattgcagaggatgaagactgccccatgtcattagtgacaacagccaacc
+XM_019925131.2  aagagccagtgattgccgaggatgaagactgcccaatgtccttagtgacaacagctaatc
+XM_036862984.1  aagagccagtgattgccgaggatgaagactgcccgatgtccttagtgacaacagcgaatc
+                *.**.** ******** **************.** ***** ******** ***** **.*
+
+NM_014491.4     acagtccagaattagaagacgacagagagattgaagaagagcctttatctgaagatctgg
+NM_053242.4     acagtccggagttagaagatgacagagagattgaggaagagcctttatctgaggacctgg
+XM_063813769.1  acagtccagaattagaagacgacagagagattgaagaagagcctttatctgaagatctgg
+XM_038439870.1  acagtccagaattagaagatgacagagagatcgaagaagagcctttatctgaagatctgg
+NM_001205569.3  acagtccagaactagaagatgacagagagattgaagaagagcctttatctgaagatctgg
+XM_023544567.1  acagtccagagttagaagacgacagagagattgaagaagagcctttatctgaagacctgg
+XM_019925131.2  acagtccagaactagaagatgacagagagattgaagaagagcctttatctgaagatctgg
+XM_036862984.1  acagtccagaactagaagatgacagagagattgaagaagagcctttatctgaagatctgg
+                *******.**..*******.***********.**.*****************.**.****
+
+NM_014491.4     aatgagaactgacttgtgaaacctcagcgtgaagggacatatcactgaccttcataacca
+NM_053242.4     aatgagaacgaacttgtgacacctcagtgtgaagggacatatcactgaccttcataacca
+XM_063813769.1  aatgagaactgacttgtgaaacctcagcgtgaagggacatatcactgaccttcataacca
+XM_038439870.1  aatgagaactgacttgtgaaacctcagcgtgaagggacatatcactgaccttcataacca
+NM_001205569.3  aatgagaactgacttgtgaaacctcagcatgaagggacatatcactgaccttcataacca
+XM_023544567.1  aatgaaaactgacttgtgaaacctcagaatgaagggacatatcactgaccttcataacca
+XM_019925131.2  aatgagaactgactcgtgaaacctcagcgtgaagggacatatcactgaccttcataacca
+XM_036862984.1  aatgagaactgacttgtgaaacctcagcgtgaagggacatatcactgaccttcataacca
+                *****.*** .***.**** ******* .*******************************
+
+NM_014491.4     ctccacaaccatgaatatttgacaaatttttactgtgactatttattaagcatggataaa
+NM_053242.4     ctccacaaccatgaatagttgacaaatttttactgtgactatttattaagcatggataaa
+XM_063813769.1  ctccacaaccatgaatatttgacaaatttttactgtgactatttattaagcatggataaa
+XM_038439870.1  ctccacaaccatgaatctttgacaaatttttactgtgactatttattaagcatggataaa
+NM_001205569.3  ctccacaaccatgaatatttgacagatttttactgtgactatttattaagcatggataaa
+XM_023544567.1  ctccacaaccatgaatatttgacagatttttactgtgactatttattaagcatggatcaa
+XM_019925131.2  ctccacaaccatgaatatttgacaaatttttactgtgactatttattaagcatggataaa
+XM_036862984.1  ctccacaaccatgaatatttgacaaatttttactgtgactatttattaagcatggataaa
+                ****************  ******.******************************** **
+
+NM_014491.4     ggagacagccc-taaaggaacttactaagccagccctttgggattcagtaccaacaggca
+NM_053242.4     ggagacagccc-taaaggaacttactaagccagccctttgggattcagaaccaacaggca
+XM_063813769.1  ggagacagccc-taaaggaacttactaagccagccctttgggattcagtaccaacaggca
+XM_038439870.1  ggagacagccc-taaaggaacttaccaagccagccctttgggattcagtaccaacaggca
+NM_001205569.3  ggagacagcccttaaaggaacttatgaagccagccctttgggattcagtaccaacaggca
+XM_023544567.1  ggagacagccc-taaaggaacttactaagccagccctttgggattcagtacc--------
+XM_019925131.2  ggagacagccc-taaaggaacttatgaagccagccctttgggattcagtaccaacaggca
+XM_036862984.1  ggagacagccc-taaaggaacttatgaagccagccctttgggattcagtaccaacaggca
+                *********** ************. ********************** ***        
+
+NM_014491.4     aattgcttgttttcttcttcttcttcttctt-----------------------------
+NM_053242.4     aattgcttgttttcttctctttctgtccttattttgtttgtttgtttgtttgattttact
+XM_063813769.1  aattgcttgttttcttcttcttcttctt--------------------------------
+XM_038439870.1  aattgcttgttttcttcccttcctccctctttct--------------------------
+NM_001205569.3  aattgcttgttttcttctctctccttctctcctt--------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  aattgcttgtttccttctctctctct----------------------------------
+XM_036862984.1  aattgcttgt--------------------------------------------------
+                                                                            
+
+NM_014491.4     -----------------tttttttttttttt--------tagaaaaaaagacaaaaactg
+NM_053242.4     ttctttacttattttctttttttcatttttt--------taaaggcaaaaaaaaaaactg
+XM_063813769.1  -----------------tttttttttttttt--------tagaaaaaaagacaaaaactg
+XM_038439870.1  --ctctctctctctctctctttttttttttt------agaaaaaaaaaagacaaaaactg
+NM_001205569.3  ------------ctctgtctcttttttttttactaaaaaaaaaaaaaaagacaaaaactg
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  -----------------tttttttttttttt--------agaaaaaaaagacaaaaactg
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     attttcttg-------aaaaaaaaaaatgaactgttctttctataatggctttgcccatt
+NM_053242.4     attttcttgg-----gaaaagagagaaagaactgttctttctataatggctttgcccatt
+XM_063813769.1  attttcttg------aaaaaaagaaaatgaactgttctttctataatggctttgcccatt
+XM_038439870.1  attttcttg----------aaaaaaaaataaacgttctttctataatggctttgcccatt
+NM_001205569.3  attttcttggggaaaaaaaaaaaaaaaagaactgttctttctataatggctttgcccatt
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  attttcttg------aaaaaaaaaaaaaagactgttctttctataatggctttgcccatt
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     t-aaaaaatgtggctcttaagggttcatgaaatgactgaatatgaggatacatgtcctgt
+NM_053242.4     t-aaaaaatgtggctctcaagggttcatgaaatgactgagtatgaggatccatgtcctat
+XM_063813769.1  t-aaaaaatgtggctcttaagggttcatgaaatgactgaatatgaggatacatgtcctgt
+XM_038439870.1  t-aaaaaatgtggctcttaagggttcatgaaatgactgaatatgaggatacatgtcctgt
+NM_001205569.3  taaaaaaatgtggctcttaagggttcatgaaatgactgaatatgaggatacacatcctgt
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  t-aaaaaatgtggctcttaagggttcatgaaatgactgaatatgaggatacacgtcctgt
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     agaaagcaaatgcgcctcatatactgccaaaaatagtgttagtttcattaatgtgaattt
+NM_053242.4     agaaagcaactgcgcctcatatactgccaaaaatagtgttagtttcattaatgtgaattt
+XM_063813769.1  agaaagcaaatgcgcctcatatactgccaaaaatagtgttagtttcattaatgtgaattt
+XM_038439870.1  agaaagcaaatgcgcctcatatactgccaaaaatagtgttagtttcattaatgtgaattt
+NM_001205569.3  agaaagcaaatgcgcctcatatactgccaaaaatagtgttagtttcattaatgtgaattt
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  agaaagcaaacgcgcctcatatactgccaaaaatagtgttagtttcattaatgtgaattt
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     tccagcattcagtagttgtaatgttagaaacaattgctggtcaagttcaacttgttgcta
+NM_053242.4     tccagcattcagtagtcgtaatgttagaaacaattgctggtcaagttcaacttgttgcta
+XM_063813769.1  tccagcattcagtagttgtaatgttagaaacaattgctggtcaagttcaacttgttgcta
+XM_038439870.1  tccagcattcagtagttgtaatgttagaaacaattgctggtcaagttcaacttgttgcta
+NM_001205569.3  tccag-------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  tccagcattcagtagttgtaatgttagaaacaattgctggtcaagttcaacttgttgcta
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     ttgtttttaatttgcacaggagtagtatcagaaattagtgtcactgcttgtatctagctg
+NM_053242.4     ttgtttttaatttgcacaggagtagtatcagaaattagtgtcactgcttgtatctagctg
+XM_063813769.1  ttgtttttaatttgcacaggagtagtatcagaaattagtgtcactgcttgtatctagctg
+XM_038439870.1  ttgtttttaatttgcacaggagtagtatcagaaattagtgtcactgcttgtatctagctg
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  ttgtttttaatttgcacaggagtagtatcagaaattagtgtcactgcttgtatctagctg
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     aattttaaacaacagaacattagttttttatgttggtgccaccaactgtaaatgacataa
+NM_053242.4     acttttaaacaacagaacattagttttttatgttggtgccaccaactgtaaatgacataa
+XM_063813769.1  aattttaaacaacagaacattagttttttatgttggtgccaccaactgtaaatgacataa
+XM_038439870.1  aattttaaacaacagaacattagttttttatgttggtgccaccaactgtaaatgacataa
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  aattttaaacaacagaacattagttttttatgttggtgccaccaactgtaaatgacataa
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     gttagttattacaaaacacagtaattagactgttgcaaccatctaaaaccttaggcttcc
+NM_053242.4     gttagttattacaaaacacagtaattagactgttgcaaccatctaaaaccttaggcttcc
+XM_063813769.1  gttagttattacaaaacacagtaattagactgttgcaaccatctaaaaccttaggcttcc
+XM_038439870.1  gttagttattacaagacacagtaattagactgttgcgaccatctaaaaccttaggcttcc
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  gttagttattacaaaacacagtaattagactgttgcaaccatctaaaaccttaggcttcc
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     agtctgtgctgttagtgttaagatgtaaagtgcaatcctaagctaacattatctgtgcaa
+NM_053242.4     agtctgtgctgttagtgtaaagatgtaaagtgcaatcctaagctaacattatctgtgcaa
+XM_063813769.1  agtctgtgctgttagtgttaagatgtaaagtgcaatcctaagctaacattatctgtgcaa
+XM_038439870.1  agtctgtgctgttagtgttaagatgtaaagtgcaatcctaagctaacattatctgtgcaa
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  agtctgtgctgttagtgttaagatgtaaagtgcaatcctaagctaacattatctgtgcaa
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     gcaccatagaaacatttgcatatctgcatagatcttacaactgtactctttacctccttg
+NM_053242.4     gcaccatagaaacatttgcatatctgcatagatcttacaactgtactctttacctccttg
+XM_063813769.1  gcaccatagaaacatttgcatatctgcatagatcttacaactgtactctttacctccttg
+XM_038439870.1  gcaccatagaaacatttgcatatctgcatagatcttacaactgtactctttacctccttg
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  gcaccatagaaacatttgcatatctgcatagatcttacaactgtactctttacctccttg
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     tgataaagctttgtctacctgcaaacacagtcaaaggctacagctgcaaaccaaagccaa
+NM_053242.4     tgataaagctttgtctacctgcaaacacagtcaaaggctacagctgcaaaccaaagccaa
+XM_063813769.1  tgataaagctttgtctacctgcaaacacagtcaaaggctacagctgcaaaccaaagccaa
+XM_038439870.1  tgataaagctttgtctacctgcaaacacagtcaaaggctacagctgcaaaccaaagccaa
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  tgataaagctttgtctacctgcaaacacagtcaaaggctacagctgcaaaccaaagccaa
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     ctctaaccatggccaagagctcaaggacagaagcagccacatgctttggtcagccttctg
+NM_053242.4     ctctaaccatggccaagagctcaaggacagaagcagccacatgctttggtcagccttctg
+XM_063813769.1  ctctaaccatggccaagagctcaaggacagaagcagccacatgctttggtcagccttctg
+XM_038439870.1  ctctaaccatggccaagagctcacggacagaagcagccacatgctttggtcagccttctg
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  ctctaaccatggccaagagctcaaggacagaagcagccacatgctttggtcagccttctg
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     taacttcaattagtacaaaggaaccttttccatgaactacctgctgttttctgatgacct
+NM_053242.4     taacttcaattagtacaaaggaaccttttccatgaactacctgctgttttctgatgacct
+XM_063813769.1  taacttcaattagtacaaaggaaccttttccatgaactacctgctgttttctgatgacct
+XM_038439870.1  taacttcaattagtacaaaggaaccttttccatgaactacctgctgttttctgatgacct
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  taacttcaattagtacaaaggaaccttttccatgaactacctgctgttttctgatgacct
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     ctgggatcttttcatttagccctaaacaaagaaacaaatatgacaaaaaccacaactaaa
+NM_053242.4     ctgggatcttttcatttagccctaaacaaagaaacgaatatgac-aaaacaaaaacaaaa
+XM_063813769.1  ctgggatcttttcatttagccctaaacaaagaaacaaatatgacaaaaaccacaactaaa
+XM_038439870.1  ctgggatcttttcatttagccctaaacaaagaatcgaatatgac-aaaaccacaactaaa
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  ctgggatcttttcatttagccctaaagcaagaatcaaatatgacaaaaaccacaactaaa
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     aaat---------------gttaattcagtcacagagtaatcttctgaggccaaaagtcc
+NM_053242.4     aaacaacccacaactaagagttcattcagtcacagagtaatcttctgaggccaaaagtcc
+XM_063813769.1  aaat---------------gttaattcagtcacagagtaatcttctgaggccaaaagtcc
+XM_038439870.1  aa-----------------gttaattcagtcacagagtaatcttctgaggccaaaagtcc
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  aa-----------------cctaatttagacacagagtaatcttctgaggccaaaagtcc
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     atctaaatgcaatgaagatttgctttcattaaagacagaggtgaggacaaaatccgcagt
+NM_053242.4     atctaaatgcaatgaagatttgctttcattaaagacagaggtgaggacaaaatctgcagt
+XM_063813769.1  atctaaatgcaatgaagatttgctttcattaaagacagaggtgaggacaaaatctgcagt
+XM_038439870.1  atctaaacgcaacgaagatttgctttcg-taaagacagaggtgaggacaaaatccgcagt
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  atctaaatgcaatgaagatttgctttcattaaagacagaggtgaggacaaaatctgcagt
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     ggaagttatgatatgctagaaagcaacaaatgtggatcactgaccaaaacgattatgtac
+NM_053242.4     ggaagttatgacactctagaaagcaacaaatgtggatcactgaccaaaacaattatgtac
+XM_063813769.1  ggaagttatgatatgctagaaagcaacaaatgtggatcactgaccaaaacgattatgtac
+XM_038439870.1  ggacgttatgatgtgctagaaagcaacaaatgtggatcactgaccaaaacgattatgtac
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  ggaagttatgatatgctagaaagcaacaaatgtggatcactgaccaaaacgattatgtac
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     ttgatgcaaatgcagattgcatattgttatatatatagtactttgtgtttttgttttccc
+NM_053242.4     ttgatgcaaatgcagattgcgtattgttatatatatagtacattgcgtttttgttttccc
+XM_063813769.1  ttgatgcaaatgcagattgcatattgttatatatatagtactttgtgtttttgttttccc
+XM_038439870.1  ttgatgcaaatgcagattgcatattgttatatatatagtacattgtgtttttgtttttcc
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  ttgatgcaaatgcagattgcatattgttatatatataggacattgtgtttttgttttccc
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     t-cattcagtcagttattttcagtggtgaatacatgttgttagaag---atgtcttgtat
+NM_053242.4     c------------atctttttggtggtgagttcatgttgttagaagtacatgtcttgtat
+XM_063813769.1  t-cattcagtcagttattttcagtggtgaatacatgttgttagaag---atgtcttgtat
+XM_038439870.1  cccatccagtcacttactttcggtggtgaatacatgttgttagaag---atgacgtgtat
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  c--atccagtcacttattttcggtggtgaatacatgttgttagaag---atgtcttgtat
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     ggtcttaatctttgttgtgtactatttttttatagtcttaagttataatg----------
+NM_053242.4     ggtcttaatctctgttgtgtactatttttttatagtcttaagttataataaaaaaaaaca
+XM_063813769.1  ggtcttaatctttgttgtgtactatttttttatagtcttaagttataatg----------
+XM_038439870.1  ggtctgaatctttgttgtgtacta-ttttttatagtcttaagttataatgaaaaaaaa--
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  ggtctgaatctttgttgtgtacta-ttttttatagtcttaagttataatga---------
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     ------aaaaaacaaaaagtaggaaccaaacataaaaggtctagtaaagccaaaaattaa
+NM_053242.4     aaaaacaaaaaacaaaaagtaggaaccaaacataaaaggtctagtaaagccaaaaattaa
+XM_063813769.1  ------aaaaaacaaaaagtaggaaccaaacataaaaggtctagtaaagccaaaaattaa
+XM_038439870.1  ------aaaaaaacaaaagtaggaaccaaacataaaaggtctagtaaagccaaaaattaa
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  ------aaaaaacaaaaagtaggaaccaaacataaaaggtctagtaaagccaaaaattaa
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     tttcatattgattttaaagtgatctagctgagtttttacactgaaagcaaagattatagc
+NM_053242.4     tttcctattgattttaaagtgatctagctgagtttttacactgaaagcaaagattatagc
+XM_063813769.1  tttcatattgattttaaagtgatctagctgagtttttacactgaaagcaaagattatagc
+XM_038439870.1  tttcatattgattttaaagtgatctagctgagtttttacactgaaagcaaagattatagc
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  tttcatattgattttaaagtgatctagctgagtttttacactgaaagcaaagattatagc
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     aattgtagtccatggtatttattttcagtcaaaccaaagttacatataattctgcctctg
+NM_053242.4     aagtgtagcccatggtatttattttcagtcaaaccaaagttacatataattctgcctctg
+XM_063813769.1  aattgtagtccatggtatttattttcagtcaaaccaaagttacatataattctgcctctg
+XM_038439870.1  aattgtagtccatggtatttattttcagtcaaaccaaagttacatataattctgcctctg
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  aattgtagtccatggtatttattttcagtcaaaccaaagttacatataattctgcctctg
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     cttatacgggatattaacactaacaatacactccc-ttcaaagacttgcacaggccaaat
+NM_053242.4     cttatacgggatatgaacactaac---acactccc-ttcaaagacttgtgcaggccaaat
+XM_063813769.1  cttatacgggatattaacactaacaatacactccc-ttcaaagacttgcacaggccaaat
+XM_038439870.1  cttatacgggatattaacactaacaatacgctccctctcaaagacttgcacaggccaaat
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  ccgatacgggatattaacactaacaatacactccctttcaaagacttgcacaggccaaat
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     tgttggaatgctggtttt-cttgacaattccaaaccccaaaactatgataatgagttatg
+NM_053242.4     tgttggaatgctgatttt-cttgacaactctaaaccccaaaactatgataagacgttatg
+XM_063813769.1  tgttggaatgctggtttt-cttgacaattccaaaccccaaaactatgataatgagttatg
+XM_038439870.1  tgttggaatgctggtttttcttgacaactccaaaccccaaaactatgatgatgcgttatg
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  tgttggaatgctggtttt-cgagacgactccaaaccccaaaactaggataacgcgttatg
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     atgtagttgaaaatagcatagtcagatgtttgcttaaaacctagaaacttaacatgttgc
+NM_053242.4     gtgtagttgaagatagcatagtcagatgtttgcttaaaacctagagactttatgtgttgc
+XM_063813769.1  atgtagttgaaaatagcatagtcagatgtttgcttaaaacctagaaacttaacgtgttgc
+XM_038439870.1  gtgtagttgaaaatagcatagtcagatgtttgcttaaaacctagaaactttacgtgttgc
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  gtgtagttgaaaatagcatagtcagatgtctgcttaaaacctagaaactttacgtgttgc
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     ttttcatgtgctgtgccaagtcttgataatactttttcccccaaccaagggacctcataa
+NM_053242.4     ttttcatgtgctgtgccaagtcttgataatactttttcccccaaccaagggacctcataa
+XM_063813769.1  ttttcatgtgctgtgccaagtcttgataatactttttcccccaaccaagggacctcataa
+XM_038439870.1  ttttcatgtgctgtgccaagtcttgataatactttttcccccaaccaagggacctcataa
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  ttttcatgtgctgtgccaagtctggataacac-ttttcccccaaccaagggacctcataa
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     cctgattatggttattgctttacaaacagttttgacagaaggtggctgctagagcttaac
+NM_053242.4     cctgattatggttattgctttacaaacagttttgacagaaggtggctgctagagcttaac
+XM_063813769.1  cctgattatggttattgctttacaaacagttttgacagaaggtggctgctagagcttaac
+XM_038439870.1  cctgattatggttattgctttacaaacagttttgacagaaggtggctgctagagcttaac
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  cctgatgatggttattgctttacaaacagtttcgacagaaggtggctgctagagcttaac
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     atacgttcccgttccatgtgatggaaccggttcttgcaaactaagctcatcattgattct
+NM_053242.4     aaatgtcccggttccatgtgatggagccggttcttgcaaactaagctcaatgtttatcct
+XM_063813769.1  atacgttcccgttccatgtgatggaaccggttcttgcaaactaagctcatcattgattct
+XM_038439870.1  atacgtaccagttccatgtgatggagctggttcttgcaaactaagctcatcatttattct
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  gtatgtaccagttccatgcgatggagctggttcttgcaaactaagctcatcatttattct
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     ttgctgaagtcagcaaatagagttagagagatacccagtcatctatcacaccaaataaaa
+NM_053242.4     ttgctgaagtcagcaaatagagttagagagatacccagtcatctatcacaccaaataaaa
+XM_063813769.1  ttgctgaagtcagcaaatagagttagagagatacccagtcatctatcacaccaaataaaa
+XM_038439870.1  ttgctgaagtcagcaaatagagttagagagatacccagtcatctatcacaccaaataaaa
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  ttgctgaagtcagcaaatagagttagagagatacccagtcatctatcacaccaaataaaa
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     ggacataacggctttcaaaagggttttcccacttacccaaaaggctttctgaaagcttct
+NM_053242.4     ggacataacggctttc-aaagggttttcccacttacccaaaaggctttctgaaagcttct
+XM_063813769.1  ggacataacggctttcaaaagggttttcccacttacccaaaaggctttctgaaagcttct
+XM_038439870.1  ggacataacggctttcaaaagggttttcccacatacccaaaaggctttctgaaagcttct
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  cgacataacggctttcaaaagggttttcccacttacccaaaaggctttctgaaagcttct
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     acctctgcaaaaaaaaaaaaagaaaaaaaaaaaaagaaaaaca-----------------
+NM_053242.4     acctctgcaaaaaagaaaaaagaaaaaaaaaaaaaaaaagaaaaaaaggaaaaaaaaaca
+XM_063813769.1  acctctgcaaaaaaaaaaaaagaaaaaaaaaaaagaaaaa--------------------
+XM_038439870.1  acctctgcaaaaaaaaaaaagaaaaaaaagaaaaaaaaagaaa-----------------
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  acctctgcaaaaaaaaaaaaaagaaaaaaaaagaaaaaaaaagaaa--------------
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     -----------------------ttagaacaattatggcagattgcatgaaacgtgagaa
+NM_053242.4     caagaaaaaaaaagagaaaaaagttagaacaattacggcagattgcatgaaacatgagaa
+XM_063813769.1  ------------------------------------------------------------
+XM_038439870.1  ------------------aaaattagaaacaattatggcagattgcatgaaacgtgagaa
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  ------------------aaaatttagaacaattatggcagattgcatgaaatgtgagaa
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     cgtcacagtaactgctacttttcattatgtttgtctttgggtcatgatcaacgaaccgga
+NM_053242.4     cgtcacagtacctgctacttttcattatgtttgtctttgggtcatgatcaacgaaccgga
+XM_063813769.1  ------------------------------------------------------------
+XM_038439870.1  cgtcacagtaactgctacttttcattatgtttgtctttgggtcatgatcaacgaacggga
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  cgtcacagtaactgctacttttcattctgtttgtctttgggtcatgatcagtgaatggga
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     agtttacaatatggtattaaaagaaagatgggtatggtgaaagatggttttcagtcatct
+NM_053242.4     agttattgatgtggtatcaaaggagagattggtattcggaaggatggttctctgatgtct
+XM_063813769.1  ------------------------------------------------------------
+XM_038439870.1  agtttccgatatggtatcaaaagaaagattggtattgtgaaggatggttttcagtcatct
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  agtttacgatatggtatcaaaagaaagattgggattgggaaggatggttttcagtcatct
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     aggatcctactgtaaggattatctgaaaggaaaaatgggtctttcaggtgcatgttcaaa
+NM_053242.4     aggatactgctgtagggataatctgaaagg-gaaacaagtctttcgggtgcatgttcaaa
+XM_063813769.1  ------------------------------------------------------------
+XM_038439870.1  aggatcctactgtaaggattatctgaaggg-aaaatgggtctttcaggtgcatgttcaaa
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  aggatcctactggaaggactatctgaaggg-aaaatgggtctttcaggtgcatgttc-aa
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     aggctttgagggactggaagtaactgcgagagttgtaccatcagaagggtggcctaagac
+NM_053242.4     aagctctgatggactggaagtaacttggagagttgttccatcgggagggtggcctaagac
+XM_063813769.1  ------------------------------------------------------------
+XM_038439870.1  aggctttgatggactggaagtaactgtgagagctgtaccatcaggagggtggcctaagac
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  aggctttgatggactgaaagtaatcgagagagctgtaccatcaggagggtggcctaagac
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     tacaatgctaaagtatgcatacctcagttagaaaacttttgaaaggaagtctcagccaca
+NM_053242.4     tacaatgctaaagtatgcatacctcagtttcaaaacttttgaaaggaagtctcagccaca
+XM_063813769.1  ------------------------------------------------------------
+XM_038439870.1  tacgatgctaaagtatgcatacctcagttacaaaacttttgaaaggaagtctcagccaca
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  tacaatgctaaagtatgcatacctcagttaccaaacttttgaaaggaagtctcagccaca
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     gaatgcatatacctgtagagttttgcatgggttttatatgaatacaattttaaaaaatag
+NM_053242.4     gaatgcatatacctgtagagttttgcatgggttttatatgaatacaattttaaaaaatag
+XM_063813769.1  ------------------------------------------------------------
+XM_038439870.1  gaatgcatatacctgtagagttttgcatgggttttatatgaatacaattttaaaaaatag
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  gaatgcatatacctgtagagttttgcatgggttttatatgaatacaattttaaaaaatag
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     ctgcttgcacattataccagaaaaacctccaaaactgcaattgctttgaaaatagatttt
+NM_053242.4     ctgcttgcacattataccagaaaaacctccaaaactgcaattgctttgaaaatagatttt
+XM_063813769.1  ------------------------------------------------------------
+XM_038439870.1  ctgcttgcacattataccagaaaaacctccaaaactgcaattgctttgaaaatagatttt
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  ctgcttgcacattataccagaaaaacctccaaaactgcaattgctttgaaaatagatttt
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     aggttttttggagtttcctgaaatgcttggtctgtattttgataattgtgcatattatgt
+NM_053242.4     aggttttttggagttttctgaaatgcttggtctgtattttgataattgtgcatattatgt
+XM_063813769.1  ------------------------------------------------------------
+XM_038439870.1  aggttttttggagttttctgaaatgcttggtctgtattttgataattgtgcatattatgt
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  aggttttttggagttttctgaaatgcttggtctgtattttgataattgtgcatattatgt
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     aaaaatgttggtggacccataaatgaccagactttttctaagaaaaatgttgctttaatg
+NM_053242.4     aaaaatgttggtggacccataaatgaccagactttttctaagaaaaatgttgctttaatg
+XM_063813769.1  ------------------------------------------------------------
+XM_038439870.1  aaaaatgttggtggacccataaatgaccagactttttctaagaaaaatgttgctttaatg
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  aaaaatgttggtggacccataaatgaccagactttttctaagaaaaatgttgctttaatg
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     catttcatgaatttttactcttatatcattgcttgctagtaatagcaaatctgcttttct
+NM_053242.4     catttcatggatttttactcttctatcattgcttgctagtaatagcaaacctgcttttct
+XM_063813769.1  ------------------------------------------------------------
+XM_038439870.1  catttcatgaatttttactcttatatcattgcttgctagtaatagcaaatctgcttttct
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  catttcatgaatttttactcttatatcattgcttgctagtaatagcaaatctgcttttct
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     gcatctgctttgcgtagctattgtaaggctttgaactaatgtatgtatttattgcttgaa
+NM_053242.4     gcatctgctttgcgtagctattgtaaggctttgaactaatgtatgtatttattgcttgaa
+XM_063813769.1  ------------------------------------------------------------
+XM_038439870.1  gcatctgctttgcgtagctattgtaaggctttgaactaatgtatgtatttattgcttgaa
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  gcatctgctttgcgtagctattgtaaggctttgaactaatgtatgtatttattgcttgaa
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     cttctgtgcataccttataaagcataatgtctgacaatttaaatggctcatgtattcttg
+NM_053242.4     cttctgtgcataccttataaagcataatgtctgacaatttaaatggctcatgtattcttg
+XM_063813769.1  ------------------------------------------------------------
+XM_038439870.1  cttctgtgcataccttataaagcataatgtctgacaatttaaatggctcatgtattcttg
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  cttctgtgcataccttataaagcataatgtctgacaa-ttaaatggctcatgtactcttg
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     cttctatcataagctgattatggggactatgatcttttgtatacagcaaattttaaactg
+NM_053242.4     cttctaccataagctgattatggggactatgatcttttgtatacagcaaatttt-aactg
+XM_063813769.1  ------------------------------------------------------------
+XM_038439870.1  cttctatcataagctgattatggggactatgatcttttgtatacagcaaatttt-aactg
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  cttctatcataagctgattatggggactgtgatcttttgtatacagcaaatttt-aactg
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     tagcacaaacatctgtttatgtattggtggaatatacctgttttatttatcttttttgag
+NM_053242.4     tagcacaaacatctgtttatgtattggtgggatatacctgttttatttatcttctttgag
+XM_063813769.1  ------------------------------------------------------------
+XM_038439870.1  tagcacaaacatctgtttatgtattggtggaatatacctgttttatttatcttttttgag
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  tagcacaaacatctgtttatgtattggtggaatatacctgttttatttatcttttttgag
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     gtaaactaatttttgatacttttcattactgtgtactatgttcatactttgaattctctg
+NM_053242.4     gtaaactaatttttgatacttttcattactgtgtactatgttcatactttgaattctctg
+XM_063813769.1  ------------------------------------------------------------
+XM_038439870.1  gtaaactaatttttgatacttttcattactgtgtactatgttcatactttgaattctctg
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  gtaaactaatttttgatacttttcattactgtgtactatgttcatactttgaattctctg
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     acgttagaagtcatggttgagaattgtaacagctgttattcgttctgtattcatggcttt
+NM_053242.4     acgttagaagtcatggttgagaattgtaacagctgttatttgttctgtattcatggcttt
+XM_063813769.1  ------------------------------------------------------------
+XM_038439870.1  acattagaagtcatggttgagaattgtaacagctgttattcgttctgtattcatggcttt
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  acgttagaagtcatggttgaaaattgtaacagctgttattcgttctgtattcatggcttt
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     cactgctgaataaaataaaggaccaaacctaggatttgaaagaaaactgtctacctctaa
+NM_053242.4     cactgctgaataaaataaaggaccaaacctaggatttgaaagaaaactgcctacctctaa
+XM_063813769.1  ------------------------------------------------------------
+XM_038439870.1  cactgctgaataaaataaaggaccaaacctaggatttgaaagaaaactgtctacctctaa
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  cactgctgaataaaataaaggaccaaacctaggatttgaaagaaaactgtctacctctaa
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     caccagggagttatcagattttattttacatagttttagtctacaaagacacaattgctt
+NM_053242.4     caccagggagttaccagattctagtttacatcattttagtctacaaagacacaattgctt
+XM_063813769.1  ------------------------------------------------------------
+XM_038439870.1  caccagggagttatcagattttattttacatagttttagtctacaaagacacaattgctt
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  caccagggagttatcagattttattttacatagttttaggctacaaagacacaattgctt
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     aaacctagtgggcttaaggcttatattctatgtggttggattcgtggcacagttgtacta
+NM_053242.4     aaacctagtgggcttaagacttatattctatgt-gttggattcatggcaccgttgtattg
+XM_063813769.1  ------------------------------------------------------------
+XM_038439870.1  aaacctagtgggcttaaggcttatattctatgtggttggattcatggcacagttgtactg
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  aaacctagtgggtttaaggcttatattctatgtggttggattcatggcacagttgtactg
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     tttgaaaatcaattaaaattttatgtgaatgttacaagtatttggtagaattaccactaa
+NM_053242.4     tttgaaaatcaattaaaatttcatgtgactgttacaagtatttggtagaattaccactaa
+XM_063813769.1  ------------------------------------------------------------
+XM_038439870.1  tttgaaaatcaattaaaatttcatgtgaatgttacaagtatttggtagaattaccactac
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  tttgaaaatcaattaaaatttcatgtgaatgttacaagtatttggtagaattaccactag
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     ctgggttttctttagataactcagatatggagaaaatgtcatcagcattctgtgtctaca
+NM_053242.4     ctggcttttcttcagatgagtcagataaagag-aatcgtcatcagcattctgtgtctaca
+XM_063813769.1  ------------------------------------------------------------
+XM_038439870.1  ctgggttttctttagataactcagatatggagaaaatgtcatcagcattctgtgtctaca
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  ctgggttttctttagataaatcagatttggagaaaaggtcatcagcattctgtgtctaca
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     gctgcttaacttcataagaatgcatttctttgtgattagggaatcgaagaatagtcagct
+NM_053242.4     gctgcttgacttcataggaatgcattgctgtgtgattagggaatcgaagaacagccagct
+XM_063813769.1  ------------------------------------------------------------
+XM_038439870.1  gctgcttaacttcataagaatgcatttctttgtgattagggaatcgaagagtagtcagct
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  actgcctaacttcatgagaatgcatttctttgtgattagggaatcgaagaatagtcagct
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     aggaatagagctacagaagtacactt-acataaaccatcctggactttaatgtccctggg
+NM_053242.4     aggaatggagctacagaagttcacttaaaacaaatggtcctggactttaatgtccctggg
+XM_063813769.1  ------------------------------------------------------------
+XM_038439870.1  aggaatagagctacagaagtacacttaaaataaaccatcctggactttaatgtccctggg
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  aggaatagagctacagaagtacacttaaaataaaccatcctggactttaacatccctggg
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     cagattcagtcgcaaaatccaatatgatattttgtaaagttttcaagttggacatttaca
+NM_053242.4     cagattcagttgcaacatccaatagactattttgtaaagttttgaaattgggcctttaca
+XM_063813769.1  ------------------------------------------------------------
+XM_038439870.1  cagattcagtcacaaaatccattacactattttgtaaagttctcaaattgggcgttcacg
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  cagattcagtcacaaaatccattagactattttgtaaagttttcaaattggacattcaca
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     --tttttgagaattt-tgagacttcatcttacacatgccagtattaacacacatttggac
+NM_053242.4     tttttttgagaatttgtaagacctcctactactcgtgttaatactaacacactcctggac
+XM_063813769.1  ------------------------------------------------------------
+XM_038439870.1  --ttttgaagaacttgtgagatttcatcttgcacatgccaatattaacacgcatttgggc
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  --ttttggggtatttgtgagacttcatcctacatatgccaatattaacatgcattcggac
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     aatagctttattaagtctataaagctattgaaaggaacatggcttacccttgttatttca
+NM_053242.4     agcaacatcactggcgtatt--agttattgacaaaa-----ccttactcttgttgcttca
+XM_063813769.1  ------------------------------------------------------------
+XM_038439870.1  aatagctttattaatgccataaagctattgaaaggaacacggcttacccttgttattcca
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  aatagctttattaatgccacaaagctgttgaaaggaacatggcttacccttgttatttca
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     ctagttcaggttgcaacgaaaggttttt---------ttgtccatgaacacttggcatat
+NM_053242.4     ttcattcacgttgcaatgaaaggggctttccccctctccgtctaagaacacttgattaat
+XM_063813769.1  ------------------------------------------------------------
+XM_038439870.1  ctagttcaggttgcaatgaaaggtgttt----------tgtccatgaacacttggcaaat
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  ctagttccggttgcaatgaaagggtttt--------tttgtccatgaacacttggcaaat
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     cttacttagc----------aaaaaagaaggatgtacattttactatagaattaatgtat
+NM_053242.4     cttacttaac----------agaaaagaggggtgtacatttttctttagaattaatgtat
+XM_063813769.1  ------------------------------------------------------------
+XM_038439870.1  cttacttagc---------aaaaaaagaaggatgtacattttcctatagaattaatgtat
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  cttacttagccaaaaaaaagaaaaagaaaggatgtacattttcctatagaattaatgtat
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     gaacagtgtgtcactgctgttggatgt----aaaaatgtatatgaaaccatttcattcac
+NM_053242.4     gaacagtgtctcacttctgctggatgtaaaaaaaaatgtatatgaaaccatttcattcag
+XM_063813769.1  ------------------------------------------------------------
+XM_038439870.1  gaacagtgtgtcactgctgttggatgt----aaaaatgtatatgaaaccatttcattcac
+NM_001205569.3  ------------------------------------------------------------
+XM_023544567.1  ------------------------------------------------------------
+XM_019925131.2  gaacagtgtgtcactgctgttggatgt----aaaaatgtatatgaaaccatttcattcac
+XM_036862984.1  ------------------------------------------------------------
+                                                                            
+
+NM_014491.4     ttgattacatttctgaagtataaat--aaaaaaatctaattctttttgaccca---
+NM_053242.4     ttggttacatttctgaagtacaaataaaaaaagatctaagtctttttgacccattt
+XM_063813769.1  --------------------------------------------------------
+XM_038439870.1  ttgattacatttctgaagtataaat---aaaaaatctaattcttttgga-------
+NM_001205569.3  --------------------------------------------------------
+XM_023544567.1  --------------------------------------------------------
+XM_019925131.2  ttgattacctttctgaagtataaat---aaaaaatctaatacttttggaccca---
+XM_036862984.1  --------------------------------------------------------
+                                                                        
