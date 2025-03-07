@@ -28,3 +28,38 @@
    * Each column represents the same position in all of the sequences
    * The --- represents missing data in those positons of a sequence
    * The goal is to identify conserved regions and variable regions
+
+## Setup Instructions
+### 1. Python environment setup and installing dependencies
+To keep dependencies isolated, create a virtual environment:
+
+```bash
+# Create a virtual environment in the .venv folder
+python -m venv .venv
+
+# activate the virtual environment
+source .venv/bin/activate
+
+# Install a package when you are in the virtual env
+pip install -r requirements.txt
+
+# deactivate it
+deactivate
+```
+
+### 2. MAFFT Installation
+MAFFT is required to use the sequence alignment tools in this project.
+You can install MAFFT on macOS via Homebrew:
+
+```bash
+# Install Homebrew if not already installed
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# Install MAFFT
+brew install mafft
+```
+
+
+
+
+
