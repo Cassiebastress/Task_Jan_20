@@ -14,7 +14,7 @@ import subprocess
 # Use Mafft to align sequences
 
 
-def mafft_align(input_fasta, output_fasta):
+def align_fasta_file(input_fasta, output_fasta):
     with open(output_fasta, "w") as outfile:
         subprocess.run(
             ["mafft", "--auto", input_fasta],
@@ -27,14 +27,14 @@ def mafft_align(input_fasta, output_fasta):
 # Return list of Seq objects
 
 
-def file_to_seq_list(input_fasta):
+def align_fasta_to_seqs(input_fasta):
     # Use tempfile to create a temporary directory
     with tempfile.TemporaryDirectory() as temp_dir:
         # Create a temporary output file
         temp_output = os.path.join(temp_dir, "aligned.fasta")
 
         # Use Function 1 function to align the sequences
-        mafft_align(input_fasta, temp_output)
+        align_fasta_file(input_fasta, temp_output)
 
         # Read the aligned sequences and return a list of Seq objects
         seq_list = []
@@ -48,7 +48,7 @@ def file_to_seq_list(input_fasta):
 # Return a list of Seq containing the allignments
 
 
-def seq_list_to_seq_list(seq_list):
+def align_seqs(seq_list):
     with tempfile.TemporaryDirectory() as temp_dir:
         # Create a temporary input file
         temp_input = os.path.join(temp_dir, "input.fasta")
@@ -66,17 +66,18 @@ def seq_list_to_seq_list(seq_list):
             SeqIO.write(records, infile, "fasta")
 
         # Use Function 3 to align the sequences and return a Seq list
-        return file_to_seq_list(temp_input)
+        return align_fasta_to_seqs(temp_input)
 
 # TESTING:
 
 # Function 1:
-mafft_align("input.fasta", "output.fasta")
+align_fasta_file("input.fasta", "output.fasta")
 
 # Function 2:
-aligned_seq_list_1 = file_to_seq_list("input.fasta")
+aligned_seq_list_1 = align_fasta_to_seqs("input.fasta")
 for seq in aligned_seq_list_1:
     print(seq)
+
 
 # Function 3:
 test_seqs = [
@@ -85,6 +86,6 @@ test_seqs = [
     Seq("ACGTACG"),
     Seq("TGCAACGT"),
 ]
-aligned_seq_list_2 = seq_list_to_seq_list(test_seqs)
+aligned_seq_list_2 = align_seqs(test_seqs)
 for seq in aligned_seq_list_2:
     print(seq)
