@@ -16,10 +16,44 @@ from typing import List
 
 
 def align_fasta_file(input_fasta: str, output_fasta: str) -> None:
-    with open(output_fasta, "w") as outfile:
+    # Check that proper input_fasta was provided
+    if not os.path.exists(input_fasta):
+        raise FileNotFoundError(
+            f"Error: The input file '{input_fasta}' does not exist "
+            "or is not a file."
+        )
+
+    # Check that MAFFT is installed and available in the Path
+    try:
         subprocess.run(
+            ["mafft", "--version"],
+            check=True,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE
+        )
+    except subprocess.CalledProcessError:
+        raise RuntimeError(
+            "Error: MAFFT is not installed or not available in the PATH."
+        )
+
+    # Run MAFFT and capture stderr
+    with open(output_fasta, "w") as outfile:
+        result = subprocess.run(
             ["mafft", "--auto", input_fasta],
-            stdout=outfile, stderr=subprocess.DEVNULL)
+            stdout=outfile, stderr=subprocess.PIPE, text=True)
+
+        # Check if MAFFT failed:
+        if result.returncode != 0:
+            os.remove(output_fasta)
+            raise RuntimeError(
+                f"Error: MAFFT failed with error:\n {result.stderr}"
+            )
+        # Check if MAFFT produced empty output
+        elif os.path.exists(output_fasta) and os.path.getsize(output_fasta) == 0:
+            os.remove(output_fasta)
+            raise RuntimeError(
+                f"Error: MAFFT did not produce any output for '{input_fasta}'."
+            )
 
 
 # Function 2:
@@ -90,3 +124,13 @@ test_seqs = [
 aligned_seq_list_2 = align_seqs(test_seqs)
 for seq in aligned_seq_list_2:
     print(seq)
+
+# Improper Input Tests:
+
+# Function 1:
+align_fasta_file("not_a_file.fasta", "output.fasta")
+align_fasta_file("requirements.txt", "bad_output.fasta")  # Not a FASTA file
+
+# Function 2:
+align_fasta_to_seqs("not_a_file.fasta")
+align_fasta_to_seqs("requirements.txt")  # Not a FASTA file
