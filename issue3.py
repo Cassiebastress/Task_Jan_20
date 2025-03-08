@@ -6,6 +6,7 @@ from Bio.Seq import Seq
 import tempfile
 import os
 import subprocess
+from typing import List
 
 # FUNCTIONS:
 
@@ -14,7 +15,7 @@ import subprocess
 # Use Mafft to align sequences
 
 
-def align_fasta_file(input_fasta, output_fasta):
+def align_fasta_file(input_fasta: str, output_fasta: str) -> None:
     with open(output_fasta, "w") as outfile:
         subprocess.run(
             ["mafft", "--auto", input_fasta],
@@ -27,7 +28,7 @@ def align_fasta_file(input_fasta, output_fasta):
 # Return list of Seq objects
 
 
-def align_fasta_to_seqs(input_fasta):
+def align_fasta_to_seqs(input_fasta: str) -> List[Seq]:
     # Use tempfile to create a temporary directory
     with tempfile.TemporaryDirectory() as temp_dir:
         # Create a temporary output file
@@ -48,7 +49,7 @@ def align_fasta_to_seqs(input_fasta):
 # Return a list of Seq containing the allignments
 
 
-def align_seqs(seq_list):
+def align_seqs(seq_list: List[Seq]) -> List[Seq]:
     with tempfile.TemporaryDirectory() as temp_dir:
         # Create a temporary input file
         temp_input = os.path.join(temp_dir, "input.fasta")
