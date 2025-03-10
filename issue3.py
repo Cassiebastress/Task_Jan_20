@@ -23,6 +23,16 @@ def align_fasta_file(input_fasta: str, output_fasta: str) -> None:
             "or is not a file."
         )
 
+    # Check that input_fasta contains only A, C, G, T characters
+    valid_chars = set("ACGT")
+    for record in SeqIO.parse(input_fasta, "fasta"):
+        seq_upper = set(record.seq.upper())
+        if not seq_upper.issubset(valid_chars):
+            raise ValueError(
+                f"Error: Sequence '{record.id}' in the input file "
+                f"'{input_fasta}' contains invalid characters."
+            )
+
     # Check that MAFFT is installed and available in the Path
     try:
         subprocess.run(
@@ -129,8 +139,8 @@ for seq in aligned_seq_list_2:
 
 # Function 1:
 align_fasta_file("not_a_file.fasta", "output.fasta")
-align_fasta_file("requirements.txt", "bad_output.fasta")  # Not a FASTA file
+align_fasta_file("bad_input.fasta", "bad_output.fasta")  # Not a valid FASTA file
 
 # Function 2:
 align_fasta_to_seqs("not_a_file.fasta")
-align_fasta_to_seqs("requirements.txt")  # Not a FASTA file
+align_fasta_to_seqs("bad_input.fasta")  # Not a valid FASTA file
