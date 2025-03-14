@@ -113,34 +113,34 @@ def align_seqs(seq_list: List[Seq]) -> List[Seq]:
         # Use Function 3 to align the sequences and return a Seq list
         return align_fasta_to_seqs(temp_input)
 
-# TESTING:
+# # TESTING:
 
-# Function 1:
-align_fasta_file("input.fasta", "output.fasta")
+# # Function 1:
+# align_fasta_file("input.fasta", "output.fasta")
 
-# Function 2:
-aligned_seq_list_1 = align_fasta_to_seqs("input.fasta")
-for seq in aligned_seq_list_1:
-    print(seq)
+# # Function 2:
+# aligned_seq_list_1 = align_fasta_to_seqs("input.fasta")
+# for seq in aligned_seq_list_1:
+#     print(seq)
 
 
-# Function 3:
-test_seqs = [
-    Seq("ACGTACGTACGT"),
-    Seq("ACGTTGCAACGT"),
-    Seq("ACGTACG"),
-    Seq("TGCAACGT"),
-]
-aligned_seq_list_2 = align_seqs(test_seqs)
-for seq in aligned_seq_list_2:
-    print(seq)
+# # Function 3:
+# test_seqs = [
+#     Seq("ACGTACGTACGT"),
+#     Seq("ACGTTGCAACGT"),
+#     Seq("ACGTACG"),
+#     Seq("TGCAACGT"),
+# ]
+# aligned_seq_list_2 = align_seqs(test_seqs)
+# for seq in aligned_seq_list_2:
+#     print(seq)
 
-# Improper Input Tests:
+# # Improper Input Tests:
 
-# Function 1:
-align_fasta_file("not_a_file.fasta", "output.fasta")
-align_fasta_file("bad_input.fasta", "bad_output.fasta")  # Not a valid FASTA file
+# # Function 1:
+# align_fasta_file("not_a_file.fasta", "output.fasta")
+# align_fasta_file("bad_input.fasta", "bad_output.fasta")  # Not a valid FASTA file
 
-# Function 2:
-align_fasta_to_seqs("not_a_file.fasta")
-align_fasta_to_seqs("bad_input.fasta")  # Not a valid FASTA file
+# # Function 2:
+# align_fasta_to_seqs("not_a_file.fasta")
+# align_fasta_to_seqs("bad_input.fasta")  # Not a valid FASTA file
