@@ -2,12 +2,13 @@
 import unittest
 import os
 from issue3 import align_fasta_to_seqs
+from unittest.mock import patch
+import subprocess
 
 # from Bio.Seq import Seq
 # from Bio.SeqRecord import SeqRecord
 # from Bio import SeqIO
 # import tempfile
-# import subprocess
 # from typing import List
 
 
@@ -37,6 +38,15 @@ class TestSequenceAlignment(unittest.TestCase):
         # Remove the file
         finally:
             os.remove(invalid_file)
+
+    def test_mafft_not_installed(self):
+        # Test that the function raises a RuntimeError
+        # when MAFFT is not installed
+        with patch("subprocess.run") as mock_run:
+            mock_run.side_effect = subprocess.CalledProcessError(1, "mafft")
+            with self.assertRaises(RuntimeError) as e:
+                align_fasta_to_seqs("input.fasta")
+            self.assertIn("MAFFT is not installed", str(e.exception))
 
 
 # Used to run the test suite when the scipt is executed directly
