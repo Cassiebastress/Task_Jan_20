@@ -1,7 +1,7 @@
 # Imports
 import unittest
 import os
-from issue3 import align_fasta_to_seqs
+from issue3 import align_fasta_to_seqs, align_seqs
 from unittest.mock import patch
 import subprocess
 import tempfile
@@ -87,6 +87,13 @@ class TestSequenceAlignment(unittest.TestCase):
             self.assertIsInstance(result[0], Seq)
         finally:
             os.remove(temp_file_name)
+
+    def test_align_seqs_with_valid_input(self):
+        seq_list = [Seq("ACGTACGT"), Seq("ACGTACGA")]
+        result = align_seqs(seq_list)
+        self.assertEqual(len(result), 2)
+        for seq in result:
+            self.assertIsInstance(seq, Seq)
 
 
 # Used to run the test suite when the scipt is executed directly
