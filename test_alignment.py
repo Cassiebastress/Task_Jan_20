@@ -62,6 +62,17 @@ class TestSequenceAlignment(unittest.TestCase):
         finally:
             os.remove(temp_file_name)
 
+    def test_empty_input_file(self):
+        # Create a temporary empty file
+        with tempfile.NamedTemporaryFile("w", delete=False) as temp_file:
+            temp_file_name = temp_file.name
+        # Call the function with the temporary file
+        with self.assertRaises(RuntimeError) as e:
+            align_fasta_to_seqs(temp_file_name)
+        self.assertIn("did not produce any output", str(e.exception))
+        # Remove the temporary file
+        os.remove(temp_file_name)
+
 
 # Used to run the test suite when the scipt is executed directly
 if __name__ == '__main__':
