@@ -25,13 +25,14 @@ def align_fasta_file(input_fasta: str, output_fasta: str) -> None:
 
     # Check that input_fasta contains only A, C, G, T characters
     valid_chars = set("ACGT")
-    for record in SeqIO.parse(input_fasta, "fasta"):
-        seq_upper = set(record.seq.upper())
-        if not seq_upper.issubset(valid_chars):
-            raise ValueError(
-                f"Error: Sequence '{record.id}' in the input file "
-                f"'{input_fasta}' contains invalid characters."
-            )
+    with open(input_fasta, "r") as infile:
+        for record in SeqIO.parse(infile, "fasta"):
+            seq_upper = set(record.seq.upper())
+            if not seq_upper.issubset(valid_chars):
+                raise ValueError(
+                    f"Error: Sequence '{record.id}' in the input file "
+                    f"'{input_fasta}' contains invalid characters."
+                )
 
     # Check that MAFFT is installed and available in the Path
     try:
@@ -83,8 +84,9 @@ def align_fasta_to_seqs(input_fasta: str) -> List[Seq]:
 
         # Read the aligned sequences and return a list of Seq objects
         seq_list = []
-        for seq_record in SeqIO.parse(temp_output, "fasta"):
-            seq_list.append(seq_record.seq)
+        with open(temp_output, "r") as infile:
+            for seq_record in SeqIO.parse(infile, "fasta"):
+                seq_list.append(seq_record.seq)
 
     return seq_list
 

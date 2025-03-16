@@ -4,16 +4,11 @@ import os
 from issue3 import align_fasta_to_seqs
 from unittest.mock import patch
 import subprocess
-
-# from Bio.Seq import Seq
-# from Bio.SeqRecord import SeqRecord
-# from Bio import SeqIO
-# import tempfile
-# from typing import List
+import tempfile
+from Bio.Seq import Seq
 
 
 class TestSequenceAlignment(unittest.TestCase):
-
     def test_missing_input_file(self):
         # Test that the function raises
         # a FileNotFoundError when the input file
@@ -47,6 +42,25 @@ class TestSequenceAlignment(unittest.TestCase):
             with self.assertRaises(RuntimeError) as e:
                 align_fasta_to_seqs("input.fasta")
             self.assertIn("MAFFT is not installed", str(e.exception))
+
+    def test_valid_input_file(self):
+        # Create a temporary file with valid sequences
+        with tempfile.NamedTemporaryFile("w", delete=False) as temp_file:
+            temp_file.write(">TestSeq1\nACGTACGT\n>TestSeq2\nACGTACGA\n")
+            temp_file_name = temp_file.name
+        # Call the function with the temporary file
+        try:
+            result = align_fasta_to_seqs(temp_file_name)
+            # Check that the result is a list
+            self.assertIsInstance(result, list)
+            # Check that list is not empty
+            self.assertGreater(len(result), 0)
+            # Check that the list contains Seq objects
+            for seq in result:
+                self.assertIsInstance(seq, Seq)
+        # Remove the temporary file
+        finally:
+            os.remove(temp_file_name)
 
 
 # Used to run the test suite when the scipt is executed directly
