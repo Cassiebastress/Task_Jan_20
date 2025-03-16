@@ -73,6 +73,21 @@ class TestSequenceAlignment(unittest.TestCase):
         # Remove the temporary file
         os.remove(temp_file_name)
 
+    def test_single_valid_sequence(self):
+        # Create a temporary file with a single valid sequence
+        with tempfile.NamedTemporaryFile("w", delete=False) as temp_file:
+            temp_file.write(">TestSeq\nACGTACGT\n")
+            temp_file_name = temp_file.name
+        # Call the function with the temporary file
+        try:
+            result = align_fasta_to_seqs(temp_file_name)
+            # Check that the result is a list of length 1
+            self.assertEqual(len(result), 1)
+            # Check that the first element of the list is a Seq object
+            self.assertIsInstance(result[0], Seq)
+        finally:
+            os.remove(temp_file_name)
+
 
 # Used to run the test suite when the scipt is executed directly
 if __name__ == '__main__':
