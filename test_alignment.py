@@ -45,11 +45,11 @@ class TestSequenceAlignment(unittest.TestCase):
 
     def test_valid_input_file(self):
         # Create a temporary file with valid sequences
-        with tempfile.NamedTemporaryFile("w", delete=False) as temp_file:
+        with tempfile.NamedTemporaryFile("w+") as temp_file:
             temp_file.write(">TestSeq1\nACGTACGT\n>TestSeq2\nACGTACGA\n")
+            temp_file.flush()  # Ensure the data is written before reading
             temp_file_name = temp_file.name
-        # Call the function with the temporary file
-        try:
+            # Call the function with the temporary file
             result = align_fasta_to_seqs(temp_file_name)
             # Check that the result is a list
             self.assertIsInstance(result, list)
@@ -58,35 +58,26 @@ class TestSequenceAlignment(unittest.TestCase):
             # Check that the list contains Seq objects
             for seq in result:
                 self.assertIsInstance(seq, Seq)
-        # Remove the temporary file
-        finally:
-            os.remove(temp_file_name)
 
     def test_empty_input_file(self):
         # Create a temporary empty file
-        with tempfile.NamedTemporaryFile("w", delete=False) as temp_file:
+        with tempfile.NamedTemporaryFile("w+") as temp_file:
             temp_file_name = temp_file.name
-        # Call the function with the temporary file
-        with self.assertRaises(RuntimeError) as e:
-            align_fasta_to_seqs(temp_file_name)
-        self.assertIn("did not produce any output", str(e.exception))
-        # Remove the temporary file
-        os.remove(temp_file_name)
+            # Call the function with the temporary file
+            with self.assertRaises(RuntimeError) as e:
+                align_fasta_to_seqs(temp_file_name)
+            self.assertIn("did not produce any output", str(e.exception))
 
     def test_single_valid_sequence(self):
         # Create a temporary file with a single valid sequence
-        with tempfile.NamedTemporaryFile("w", delete=False) as temp_file:
+        with tempfile.NamedTemporaryFile("w+") as temp_file:
             temp_file.write(">TestSeq\nACGTACGT\n")
-            temp_file_name = temp_file.name
-        # Call the function with the temporary file
-        try:
-            result = align_fasta_to_seqs(temp_file_name)
+            temp_file.flush()
+            result = align_fasta_to_seqs(temp_file.name)
             # Check that the result is a list of length 1
             self.assertEqual(len(result), 1)
             # Check that the first element of the list is a Seq object
             self.assertIsInstance(result[0], Seq)
-        finally:
-            os.remove(temp_file_name)
 
     def test_align_seqs_with_valid_input(self):
         seq_list = [Seq("ACGTACGT"), Seq("ACGTACGA")]
