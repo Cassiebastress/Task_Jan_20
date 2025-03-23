@@ -8,15 +8,19 @@ import os
 import subprocess
 from typing import List
 
-# FUNCTIONS:
-
-# Function 1:
-# Take input file and output file names
-# Use Mafft to align sequences
-
 
 def align_fasta_file(input_fasta: str, output_fasta: str) -> None:
-    # Check that proper input_fasta was provided
+    """
+    Parameters:
+        input_fasta (str): Path to the input FASTA file
+        output_fasta (str): Path to the output FASTA file
+    Raises:
+        FileNotFoundError: If input_fasta does not exist
+        ValueError: If input_fasta contains invalid characters
+        RuntimeError: If MAFFT is not installed, fails to run,
+        or produces no output
+    """
+    # Verify that the input file exists
     if not os.path.exists(input_fasta):
         raise FileNotFoundError(
             f"Error: The input file '{input_fasta}' does not exist "
@@ -34,7 +38,7 @@ def align_fasta_file(input_fasta: str, output_fasta: str) -> None:
                     f"'{input_fasta}' contains invalid characters."
                 )
 
-    # Check that MAFFT is installed and available in the Path
+    # Ensure MAFFT is installed and accessible
     try:
         subprocess.run(
             ["mafft", "--version"],
@@ -47,13 +51,12 @@ def align_fasta_file(input_fasta: str, output_fasta: str) -> None:
             "Error: MAFFT is not installed or not available in the PATH."
         )
 
-    # Run MAFFT and capture stderr
+    # Run MAFFT and handle errors
     with open(output_fasta, "w") as outfile:
         result = subprocess.run(
             ["mafft", "--auto", input_fasta],
             stdout=outfile, stderr=subprocess.PIPE, text=True)
 
-        # Check if MAFFT failed:
         if result.returncode != 0:
             os.remove(output_fasta)
             raise RuntimeError(
@@ -67,13 +70,13 @@ def align_fasta_file(input_fasta: str, output_fasta: str) -> None:
             )
 
 
-# Function 2:
-# Take input file name
-# Use mafft to align sequences
-# Return list of Seq objects
-
-
 def align_fasta_to_seqs(input_fasta: str) -> List[Seq]:
+    """
+    Parameters:
+        input_fasta (str): Path to the input FASTA file
+    Returns:
+        List[Seq]: List of aligned sequences as Seq objects
+    """
     # Use tempfile to create a temporary directory
     with tempfile.TemporaryDirectory() as temp_dir:
         # Create a temporary output file
@@ -90,12 +93,14 @@ def align_fasta_to_seqs(input_fasta: str) -> List[Seq]:
 
     return seq_list
 
-# Function 3:
-# Take a list of Seq objects
-# Return a list of Seq containing the allignments
-
 
 def align_seqs(seq_list: List[Seq]) -> List[Seq]:
+    """
+    Parameters:
+        seq_list (List[Seq]): List of sequences as Seq objects
+    Returns:
+        List[Seq]: List of aligned sequences as Seq objects
+    """
     with tempfile.TemporaryDirectory() as temp_dir:
         # Create a temporary input file
         temp_input = os.path.join(temp_dir, "input.fasta")
