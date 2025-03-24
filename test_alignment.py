@@ -88,6 +88,20 @@ class TestSequenceAlignment(unittest.TestCase):
         self.assertEqual(len(result), 2)
         for seq in result:
             self.assertIsInstance(seq, Seq)
+    
+    def test_mafft_failed(self):
+        """
+        Test that align_fasta_to_seqs raises a RuntimeError
+        when MAFFT fails
+        """
+        with tempfile.NamedTemporaryFile("w+") as temp_file:
+            temp_file.write(">TestSeq1\nACGTACGT\n>TestSeq2\nACGTACGA\n")
+            temp_file.flush()
+            with patch("subprocess.run") as mock_run:
+                mock_run.return_value.returncode = 1
+                with self.assertRaises(RuntimeError) as e:
+                    align_fasta_to_seqs(temp_file.name)
+                self.assertIn("MAFFT failed", str(e.exception))
 
 
 # Used to run the test suite when the scipt is executed directly
