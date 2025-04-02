@@ -59,6 +59,18 @@ You can install MAFFT on macOS via Homebrew:
 brew install mafft
 ```
 
+## How MAFFT Aligns Circularly Permutated Sequences
+### The following example demonstrates how MAFFT fails to produce the best alignment of circularly permutated sequences
+#### Input
+    > seq1
+    ACGTAAATTAAA
+    > seq2
+    AAACGTAAATTA
+
+#### Output:
+    seq1            --acgtaaattaaa
+    seq2            aaacgtaaatta--
+                      **********  
 
 
 
