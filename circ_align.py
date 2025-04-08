@@ -23,9 +23,11 @@ def score_alignment(seq1, seq2):
     length = len(seq1)
     seq1 = list(seq1)
     seq2 = list(seq2)
-    count = 0
+
+    matches = 0
     for i in range(length):
-        if seq1[i] == "-" or seq2[i] == "-":
-            count += 1
-    score = (length - count) / length
+        if seq1[i] != '-' and seq2[i] != '-' and seq1[i] == seq2[i]:
+            matches += 1
+    score = matches / length
+
     return round(score, 2)
