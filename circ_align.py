@@ -41,6 +41,8 @@ def circular_align(seq1: Seq, seq2: Seq) -> List[Seq]:
     """
     if (len(seq1) != len(seq2)):
         raise ValueError("Sequences must be the same length")
+    if (len(seq1) == 0):
+        raise ValueError("Sequences cannot be empty")
     highest_score = 0
     best_alignment = [seq1, seq2]  # default to the original sequences
     for i in range(len(seq1)):
