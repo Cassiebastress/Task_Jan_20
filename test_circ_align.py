@@ -1,26 +1,26 @@
 import unittest
-from circ_align import circular_align, permutateSeq, score_alignment
+from circ_align import circular_align, permutate_seq, score_alignment
 from Bio.Seq import Seq
 
 
 class TestCircularAlign(unittest.TestCase):
-    def test_permutateSeq(self):
+    def test_permutate_seq(self):
         """
-        Test the permutateSeq function
+        Test the permutate_seq function
         """
         seq = Seq("ACGT")
         places = 2
         expected = Seq("GTAC")
-        result = permutateSeq(seq, places)
+        result = permutate_seq(seq, places)
         self.assertEqual(result, expected)
 
     def test_score_alignment(self):
         """
         Test the score_alignment function for partially aligned sequences
         """
-        seq1 = Seq("ACGT")
-        seq2 = Seq("ACGA")
-        expected_score = 0.75
+        seq1 = Seq("ACGT-GTA")
+        seq2 = Seq("ACGTTGTA")
+        expected_score = 7
         result = score_alignment(seq1, seq2)
         self.assertEqual(result, expected_score)
 
@@ -75,7 +75,7 @@ class TestCircularAlign(unittest.TestCase):
         expected = [Seq("atacgtaaatta"), Seq("aaacgtaaatta")]
         result = circular_align(seq1, seq2)
         self.assertEqual(result, expected)
-    
+
     def test_circ_align_perfect_alignment(self):
         """
         Test the circular alignment of two sequences with perfect match
