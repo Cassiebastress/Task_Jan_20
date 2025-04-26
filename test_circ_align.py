@@ -20,7 +20,7 @@ class TestCircularAlign(unittest.TestCase):
         """
         seq1 = Seq("ACGT-GTA")
         seq2 = Seq("ACGTTGTA")
-        expected_score = 7
+        expected_score = (7, 1)
         result = score_alignment(seq1, seq2)
         self.assertEqual(result, expected_score)
 
@@ -55,17 +55,6 @@ class TestCircularAlign(unittest.TestCase):
             circular_align(seq1, seq2)
         self.assertIn("Sequences cannot be empty", str(e.exception))
 
-    def test_align_different_length_sequences(self):
-        """
-        Test that circular_align raises a ValueError when sequences are of
-        different lengths
-        """
-        seq1 = Seq("ACGT")
-        seq2 = Seq("ACG")
-        with self.assertRaises(ValueError) as e:
-            circular_align(seq1, seq2)
-        self.assertIn("Sequences must be the same length", str(e.exception))
-
     def test_circ_align(self):
         """
         Test the circular alignment of two sequences
@@ -83,6 +72,26 @@ class TestCircularAlign(unittest.TestCase):
         seq1 = Seq("acgt")
         seq2 = Seq("acgt")
         expected = [seq1, seq2]
+        result = circular_align(seq1, seq2)
+        self.assertEqual(result, expected)
+
+    def test_circ_align_different_lengths(self):
+        """
+        Test the circular alignment of two sequences of different lengths
+        """
+        seq1 = Seq("ACGTGTA")
+        seq2 = Seq("ACGTTGTA")
+        expected = [Seq("acgt-gta"), Seq("acgttgta")]
+        result = circular_align(seq1, seq2)
+        self.assertEqual(result, expected)
+
+    def test_circ_align_minimizes_breaks(self):
+        """
+        Test the circular alignment of two sequences that minimizes breaks
+        """
+        seq1 = Seq("AC")
+        seq2 = Seq("ACTGTAC")
+        expected = [Seq("ac-----"), Seq("actgtac")]
         result = circular_align(seq1, seq2)
         self.assertEqual(result, expected)
 
