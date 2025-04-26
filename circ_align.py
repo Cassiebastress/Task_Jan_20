@@ -8,10 +8,7 @@ def permutate_seq(seq: Seq, places: int) -> Seq:
     Permutate a sequence by a given number of places
     """
     rotation = places % len(seq)
-    if rotation == 0:
-        return seq
-    newSeq = seq[-rotation:] + seq[:len(seq) - rotation]
-    return Seq(newSeq)
+    return seq[-rotation:] + seq[:- rotation]
 
 
 def score_alignment(seq1: str, seq2: str) -> float:
