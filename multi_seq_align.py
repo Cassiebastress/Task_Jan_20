@@ -23,7 +23,7 @@ def find_true_length(input: str) -> int:
     return length
 
 
-def shiftAll(input: list) -> list:
+def shiftAll(input: list) -> None:
     """
     Shift all sequences in the input list to the left by one position.
 
@@ -37,10 +37,10 @@ def shiftAll(input: list) -> list:
     print(f"length of input is: {len(input)}")
     for i in range(len(input)):
         shift(input[i][0])
-    return input
 
 
 def check_for_gaps(input: list) -> bool:
+    print(f"Checking for gaps in input: {input}")
     for j in range(len(input)):
         # If the reference sequence has a gap
         if input[j][0][0] == '-':
@@ -57,7 +57,7 @@ def aligned_tuples_to_MSA2(input: list) -> str:
     hasGap = False
 
     for i in range(num):
-        check_for_gaps(input)
+        hasGap = check_for_gaps(input)
         if hasGap:
             # while there is a gap in one of the ref seqs
             # add a gap to the final reference sequence
@@ -66,6 +66,12 @@ def aligned_tuples_to_MSA2(input: list) -> str:
                 print("Adding gap to reference")
                 ref += '-'
                 hasGap = check_for_gaps(input)
+            # No longer any gaps, so add the first character of any
+            # sequence to the reference sequence since all sequences
+            # are aligned at this position
+            print(f"Adding character to reference: {input[0][0][0]}")
+            ref += input[0][0][0]
+            shiftAll(input)
         else:
             # Add the first character of any sequence to the
             # reference sequence since all sequences are now aligned
