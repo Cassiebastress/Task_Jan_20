@@ -49,8 +49,7 @@ def check_for_gaps(input: list) -> bool:
     return False
 
 
-def aligned_tuples_to_MSA2(input: list) -> str:
-
+def make_reference_seq(input: list) -> str:
     # Initialize variables
     ref = ""
     num = find_true_length(input[0][0])  # Use first reference sequence
@@ -81,3 +80,27 @@ def aligned_tuples_to_MSA2(input: list) -> str:
             shiftAll(input)
 
     return ref
+
+
+# Must fix this function
+# Logic error in how we build final nonref seq
+def adjust_non_reference_seq(tuple: list) -> list:
+    length = len(tuple[0])
+    adjusted_non_ref = ""
+    index = 0
+    for i in range(length):
+        if (tuple[0][i] == '-' and tuple[1][index] != '-'):
+            adjusted_non_ref += '-'
+        else:
+            adjusted_non_ref += tuple[1][index]
+            index += 1
+    return [''.join(tuple[0]), adjusted_non_ref]
+
+
+def aligned_tuples_to_MSA(input: list) -> str:
+    ref = make_reference_seq(input)
+    nonref = []
+    for i in range(len(input)):
+        nonref.append(adjust_non_reference_seq([ref, input[i][1]]))
+    nonref.insert(0, ref)
+    return nonref
