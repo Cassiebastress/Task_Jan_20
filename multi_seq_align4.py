@@ -7,11 +7,12 @@ def prepare_mutable_copy(data: list[list[str]]) -> list[list[list[str]]]:
     converted to a list of characters for mutability.
 
     Returns:
-        A new list where row[0] is a list of characters (mutable).
+        A new list where both rows are lists of characters (mutable).
     """
     new_data = copy.deepcopy(data)
     for row in new_data:
         row[0] = list(row[0])
+        row[1] = list(row[1])
     return new_data
 
 
@@ -77,24 +78,34 @@ def aligned_tuples_to_MSA(input_list: list) -> list:
             msa_ref += '-'
             for j, row in enumerate(mutable_copy):
                 if len(row[0]) > i and row[0][i] == '-':
-                    print(f"Sequence {j+1} has gap at position {i}")
-                    nonref[j].append('-')
+                    print(f"Ref sequence {j+1} has gap at position {i}")
+                    print(f"Adding char {row[1][i]} to output sequence {j+1}")
+                    nonref[j].append(row[1][i])
                 else:
                     print(f"Sequence {j+1} has no gap at position {i}")
+                    print(f"Adding '-' to output sequence {j+1}")
                     nonref[j].append('-')
+                    print(f"Adding '-' to ref sequence {j+1} at position {i}")
                     row[0].insert(i, '-')
-                    print(f"Inserted '-' into sequence {j+1} at position {i}")
-                    print(f"Row after insertion: {row[0]}")
+                    print(f"Adding '-' to nonref sequence {j+1} at position {i}")
+                    row[1].insert(i, '-')
         else:
             print(f"No gap at position {i}")
             char = find_sequence_with_char_at_i(mutable_copy, i)
+            print(f"Adding character '{char}' to reference")
             msa_ref += char
             for j, row in enumerate(mutable_copy):
                 if len(row[0]) > i:
-                    nonref[j].append(row[0][i])
+                    print(f"Nonref sequence {j+1} has character '{row[1][i]}' at position {i}")
+                    print(f"Adding character '{row[1][i]}' to sequence {j+1}")
+                    nonref[j].append(row[1][i])
                 else:
+                    print(f"Nonref sequence {j+1} has no character at position {i}")
+                    print(f"Adding '-' to output sequence {j+1}")
                     nonref[j].append('-')
-                    row[0].insert(i, '-')
+                    print(f"Adding '-' to reference sequence {j+1}")
+                    row[0].append('-')
+
         i += 1
     return [['ref', msa_ref]] + [[str(j + 1), ''.join(seq)] for j,
                                  seq in enumerate(nonref)]
