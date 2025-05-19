@@ -22,8 +22,10 @@ def still_has_real_content(data: list[list[list[str]]], i: int) -> bool:
     """
     for row in data:
         for j in range(i, len(row[0])):
-            if row[0][j] != '-':
+            if len(row[0]) > j:
                 return True
+            # if row[0][j] != '-':
+            #     return True
     return False
 
 
