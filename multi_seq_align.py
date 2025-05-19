@@ -1,106 +1,113 @@
-def shift(char_list):
-    """
-    Shift the list of characters to the left by one position, in-place.
-    """
-    print(f"Before shift: {char_list}")
-    if char_list:
-        del char_list[0]
-    print(f"After shift: {char_list}")
+import copy
 
 
-def find_true_length(input: str) -> int:
+def prepare_mutable_copy(data: list[list[str]]) -> list[list[list[str]]]:
     """
-    Find the true length of a sequence by removing gaps.
-
-    Args:
-        input (str): The input sequence.
+    Create a deep copy of the data where the first string in each row is
+    converted to a list of characters for mutability.
 
     Returns:
-        int: The true length of the sequence.
+        A new list where both rows are lists of characters (mutable).
     """
-    length = len([c for c in input if c != '-'])
-    print(f"True length of sequence: {length}")
-    return length
+    new_data = copy.deepcopy(data)
+    for row in new_data:
+        row[0] = list(row[0])
+        row[1] = list(row[1])
+    return new_data
 
 
-def shiftAll(input: list) -> None:
+def still_has_real_content(data: list[list[list[str]]], i: int) -> bool:
     """
-    Shift all sequences in the input list to the left by one position.
+    Returns True if any sequence has a non-dash character at or after index i.
+    """
+    for row in data:
+        for j in range(i, len(row[0])):
+            if len(row[0]) > j:
+                return True
+            # if row[0][j] != '-':
+            #     return True
+    return False
+
+
+def has_gap_at_position(data: list[list[str]], i: int) -> bool:
+    """
+    Check if any of the first elements (index 0) in the inner lists
+    has a '-' character at the given index i.
 
     Args:
-        input (list): The input list of sequences.
+        data (list): The 2D list of strings.
+        i (int): The position to check for a gap ('-').
 
     Returns:
-        list: The shifted list of sequences.
+        bool: True if any first element has '-' at position i, False otherwise.
     """
-    print(f"Shifting all sequences: {input}")
-    print(f"length of input is: {len(input)}")
-    for i in range(len(input)):
-        shift(input[i][0])
-
-
-def check_for_gaps(input: list) -> bool:
-    print(f"Checking for gaps in input: {input}")
-    for j in range(len(input)):
-        # If the reference sequence has a gap
-        if input[j][0][0] == '-':
-            shift(input[j][0])
+    for row in data:
+        if len(row[0]) > i and row[0][i] == '-':
             return True
     return False
 
 
-def make_reference_seq(input: list) -> str:
-    # Initialize variables
-    ref = ""
-    num = find_true_length(input[0][0])  # Use first reference sequence
-    hasGap = False
+def find_sequence_with_char_at_i(data: list[list[str]], i: int) -> str:
+    """
+    Find the first character at index i in the first elements of the inner
+    lists.
 
-    for i in range(num):
-        hasGap = check_for_gaps(input)
-        if hasGap:
-            # while there is a gap in one of the ref seqs
-            # add a gap to the final reference sequence
-            # and shift that reference input seq to the left
-            while (hasGap):
-                print("Adding gap to reference")
-                ref += '-'
-                hasGap = check_for_gaps(input)
-            # No longer any gaps, so add the first character of any
-            # sequence to the reference sequence since all sequences
-            # are aligned at this position
-            print(f"Adding character to reference: {input[0][0][0]}")
-            ref += input[0][0][0]
-            shiftAll(input)
+    Args:
+        data (list): The 2D list of strings.
+        i (int): The index to check.
+
+    Returns:
+        str: The character found at index i, or '-' if not found.
+    """
+    for row in data:
+        if len(row[0]) > i:
+            return row[0][i]
+    return '-'
+
+
+def aligned_tuples_to_MSA(input_list: list) -> list:
+    i = 0
+    msa_ref = ""
+    mutable_copy = prepare_mutable_copy(input_list)
+
+    # Initialize nonref as a list of empty lists
+    nonref = [[] for _ in range(len(mutable_copy))]
+
+    while still_has_real_content(mutable_copy, i):
+        if has_gap_at_position(mutable_copy, i):
+            print(f"Gap found at position {i}")
+            print("adding gap to reference")
+            msa_ref += '-'
+            for j, row in enumerate(mutable_copy):
+                if len(row[0]) > i and row[0][i] == '-':
+                    print(f"Ref sequence {j+1} has gap at position {i}")
+                    print(f"Adding char {row[1][i]} to output sequence {j+1}")
+                    nonref[j].append(row[1][i])
+                else:
+                    print(f"Sequence {j+1} has no gap at position {i}")
+                    print(f"Adding '-' to output sequence {j+1}")
+                    nonref[j].append('-')
+                    print(f"Adding '-' to ref sequence {j+1} at position {i}")
+                    row[0].insert(i, '-')
+                    print(f"Adding '-' to nonref sequence {j+1} at position {i}")
+                    row[1].insert(i, '-')
         else:
-            # Add the first character of any sequence to the
-            # reference sequence since all sequences are now aligned
-            # at this position
-            print(f"Adding character to reference: {input[0][0][0]}")
-            ref += input[0][0][0]
-            shiftAll(input)
+            print(f"No gap at position {i}")
+            char = find_sequence_with_char_at_i(mutable_copy, i)
+            print(f"Adding character '{char}' to reference")
+            msa_ref += char
+            for j, row in enumerate(mutable_copy):
+                if len(row[0]) > i:
+                    print(f"Nonref sequence {j+1} has character '{row[1][i]}' at position {i}")
+                    print(f"Adding character '{row[1][i]}' to sequence {j+1}")
+                    nonref[j].append(row[1][i])
+                else:
+                    print(f"Nonref sequence {j+1} has no character at position {i}")
+                    print(f"Adding '-' to output sequence {j+1}")
+                    nonref[j].append('-')
+                    print(f"Adding '-' to reference sequence {j+1}")
+                    row[0].append('-')
 
-    return ref
-
-
-# Must fix this function
-# Logic error in how we build final nonref seq
-def adjust_non_reference_seq(tuple: list) -> list:
-    length = len(tuple[0])
-    adjusted_non_ref = ""
-    index = 0
-    for i in range(length):
-        if (tuple[0][i] == '-' and tuple[1][index] != '-'):
-            adjusted_non_ref += '-'
-        else:
-            adjusted_non_ref += tuple[1][index]
-            index += 1
-    return [''.join(tuple[0]), adjusted_non_ref]
-
-
-def aligned_tuples_to_MSA(input: list) -> str:
-    ref = make_reference_seq(input)
-    nonref = []
-    for i in range(len(input)):
-        nonref.append(adjust_non_reference_seq([ref, input[i][1]]))
-    nonref.insert(0, ref)
-    return nonref
+        i += 1
+    return [['ref', msa_ref]] + [[str(j + 1), ''.join(seq)] for j,
+                                 seq in enumerate(nonref)]
