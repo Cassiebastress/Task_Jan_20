@@ -46,7 +46,8 @@ def has_gap_at_position(data: list[list[str]], i: int) -> bool:
 
 def find_sequence_with_char_at_i(data: list[list[str]], i: int) -> str:
     """
-    Find the first character at index i in the first elements of the inner lists.
+    Find the first character at index i in the first elements of the inner
+    lists.
 
     Args:
         data (list): The 2D list of strings.
@@ -72,13 +73,18 @@ def aligned_tuples_to_MSA(input_list: list) -> list:
     while still_has_real_content(mutable_copy, i):
         if has_gap_at_position(mutable_copy, i):
             print(f"Gap found at position {i}")
+            print("adding gap to reference")
             msa_ref += '-'
             for j, row in enumerate(mutable_copy):
                 if len(row[0]) > i and row[0][i] == '-':
+                    print(f"Sequence {j+1} has gap at position {i}")
                     nonref[j].append('-')
                 else:
+                    print(f"Sequence {j+1} has no gap at position {i}")
                     nonref[j].append('-')
                     row[0].insert(i, '-')
+                    print(f"Inserted '-' into sequence {j+1} at position {i}")
+                    print(f"Row after insertion: {row[0]}")
         else:
             print(f"No gap at position {i}")
             char = find_sequence_with_char_at_i(mutable_copy, i)
@@ -90,4 +96,5 @@ def aligned_tuples_to_MSA(input_list: list) -> list:
                     nonref[j].append('-')
                     row[0].insert(i, '-')
         i += 1
-    return [['ref', msa_ref]] + [[str(j + 1), ''.join(seq)] for j, seq in enumerate(nonref)]
+    return [['ref', msa_ref]] + [[str(j + 1), ''.join(seq)] for j,
+                                 seq in enumerate(nonref)]
