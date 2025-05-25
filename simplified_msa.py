@@ -59,18 +59,8 @@ def aligned_tuples_to_MSA(input_list: list[list[str]]) -> list[list[str]]:
                 template = input_list[j][0]
                 sequence = input_list[j][1]
 
-                # If the template has a character at position i,
-                # add the corresponding character from the sequence
-                # to the nonref sequence
-                if len(template) > i:
-                    nonref[j] += sequence[i]
-
-                # If the template has no character at position i,
-                # add a gap to the nonref sequence
-                # and pad the template with a gap to maintain alignment
-                else:
-                    nonref[j] += '-'
-                    template += '-'
+                # Add the corresponding character to the nonref sequence
+                nonref[j] += sequence[i]
 
         i += 1
 
