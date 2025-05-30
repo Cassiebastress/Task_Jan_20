@@ -18,14 +18,12 @@ def prepare_mutable_copy(data: list[list[str]]) -> list[list[list[str]]]:
 
 def still_has_content(data: list[list[list[str]]], i: int) -> bool:
     """
-    Returns True if any sequence has a non-dash character at or after index i.
+    Returns True if any sequence has a character at or after index i.
     """
     for row in data:
         for j in range(i, len(row[0])):
             if len(row[0]) > j:
                 return True
-            # if row[0][j] != '-':
-            #     return True
     return False
 
 
@@ -62,7 +60,6 @@ def find_sequence_with_char_at_i(data: list[list[str]], i: int) -> str:
     for row in data:
         if len(row[0]) > i:
             return row[0][i]
-    return '-'
 
 
 def aligned_tuples_to_MSA(input_list: list) -> list:
@@ -94,5 +91,5 @@ def aligned_tuples_to_MSA(input_list: list) -> list:
                     row[0].append('-')
 
         i += 1
-    return [['ref', msa_ref]] + [[str(j + 1), ''.join(seq)] for j,
-                                 seq in enumerate(nonref)]
+    # Return reference and aligned sequences as a list of strings
+    return [msa_ref] + [''.join(seq) for seq in nonref]
