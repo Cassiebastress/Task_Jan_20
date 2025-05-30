@@ -34,7 +34,7 @@ def aligned_tuples_to_MSA(pwas: list[PWA]) -> list[str]:
 
         i += 1
 
-    output = pwas[0][:1] + [sequence for _, sequence in pwas]
+    output = [pwas[0][0]] + [sequence for _, sequence in pwas]
 
     # Fill the potential gap at the end
     max_length = max(len(seq) for seq in output)
