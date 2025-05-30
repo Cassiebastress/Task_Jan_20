@@ -1,3 +1,5 @@
+import copy
+
 # Type for pairwise alignment
 PWA = tuple[str, str]
 
@@ -12,11 +14,14 @@ def has_gap_at_position(pwas: list[PWA], i: int) -> bool:
     return any(len(row[0]) > i and row[0][i] == "-" for row in pwas)
 
 
-def aligned_tuples_to_MSA(pwas: list[PWA]) -> list[str]:
+def aligned_tuples_to_MSA(pwas_input: list[PWA]) -> list[str]:
     """
     Convert a list of single alignments into a multisequence alignment.
     """
     i = 0
+
+    # Make a copy of the input to avoid modifying it in place
+    pwas = copy.deepcopy(pwas_input)
 
     while still_has_content(pwas, i):
 
