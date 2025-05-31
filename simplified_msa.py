@@ -14,6 +14,20 @@ def has_gap_at_position(pwas: list[PWA], i: int) -> bool:
     return any(len(row[0]) > i and row[0][i] == "-" for row in pwas)
 
 
+def template_chars_only(string):
+    return ''.join(char for char in string if char != '-')
+
+
+def validate_input(pwas: list[PWA]) -> None:
+    # Verify that within each tuple, both sequecnes have the same length
+    for template, sequence in pwas:
+        if len(template) != len(sequence):
+            raise ValueError("Template and sequence must have the same length.")
+
+    if len({template_chars_only(seq) for seq, _ in pwas}) != 1:
+        raise ValueError("All reference sequences must be the same")
+
+
 def aligned_tuples_to_MSA(pwas_input: list[PWA]) -> list[str]:
     """
     Convert a list of single alignments into a multisequence alignment.
@@ -22,6 +36,12 @@ def aligned_tuples_to_MSA(pwas_input: list[PWA]) -> list[str]:
 
     # Make a copy of the input to avoid modifying it in place
     pwas = copy.deepcopy(pwas_input)
+
+    # Convert copy to uppercase
+    pwas = [[template.upper(), sequence.upper()] for template, sequence in pwas]
+
+    # Validate input
+    validate_input(pwas)
 
     while still_has_content(pwas, i):
 
