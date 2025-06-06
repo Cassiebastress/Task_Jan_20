@@ -14,8 +14,8 @@ def has_gap_at_position(pwas: list[PWA], i: int) -> bool:
     return any(len(row[0]) > i and row[0][i] == "-" for row in pwas)
 
 
-def template_chars_only(string):
-    return ''.join(char for char in string if char != '-')
+def template_chars_only(my_string):
+    return my_string.replace('-', '')
 
 
 def validate_input(pwas: list[PWA]) -> None:
@@ -34,11 +34,8 @@ def aligned_tuples_to_MSA(pwas_input: list[PWA]) -> list[str]:
     """
     i = 0
 
-    # Make a copy of the input to avoid modifying it in place
-    pwas = copy.deepcopy(pwas_input)
-
     # Convert copy to uppercase
-    pwas = [[template.upper(), sequence.upper()] for template, sequence in pwas]
+    pwas = [[template.upper(), sequence.upper()] for template, sequence in pwas_input]
 
     # Validate input
     validate_input(pwas)
